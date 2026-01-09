@@ -54,3 +54,28 @@ mariadb -u root -p pokemysterious < mysterious.sql
 ```shell
 ./restart-tfs.sh
 ```
+
+---
+
+# Inicializar tfs manualmente com cpulimit e memory limit
+
+### Primeiro de tudo, precisamos instalar as libs necessarias
+
+```shell
+sudo apt install cpulimit -y
+```
+
+```shell
+sudo apt install cpulimit -y
+```
+
+### Definir limite de memoria ram á 1.2gb
+```shell
+ulimit -v 1258291
+```
+
+### Executar tfs com limite de cpu 50%
+
+```shell
+cpulimit -l 50 ./theforgottenserver
+```
