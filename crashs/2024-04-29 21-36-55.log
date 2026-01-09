@@ -1,0 +1,249 @@
+2024-04-29 21:36:56 -  [Thread debugging using libthread_db enabled]
+2024-04-29 21:36:56 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2024-04-29 21:36:56 -  [New Thread 0x7ffff52a3700 (LWP 41462)]
+2024-04-29 21:36:56 -  otPokemon Imperium, version 0.3.6 (otPokemon Imperium.)
+2024-04-29 21:36:56 -  Compiled with GNU C++ version 10.2.1 20210110 at Apr 29 2024, 21:03:29.
+2024-04-29 21:36:56 -  A server developed by : GOD Vitor.
+2024-04-29 21:36:56 -  otPokemon Imperium - Pokemon Tibia Online.
+2024-04-29 21:36:56 -  
+2024-04-29 21:36:56 -  >> Loading config (config.lua)
+2024-04-29 21:36:56 -  > Using SHA1 encryption
+2024-04-29 21:36:56 -  >> Loading RSA key
+2024-04-29 21:36:56 -  >> Starting SQL connection
+2024-04-29 21:36:56 -  >> Running Database Manager
+2024-04-29 21:36:56 -  > Optimizing table: player_items... [success]
+2024-04-29 21:36:56 -  > Optimizing table: player_depotitems... [success]
+2024-04-29 21:36:56 -  > Optimizing table: player_storage... [success]
+2024-04-29 21:36:56 -  >> Loading items
+2024-04-29 21:36:56 -  >> Loading groups
+2024-04-29 21:36:56 -  >> Loading vocations
+2024-04-29 21:36:56 -  >> Loading script systems
+2024-04-29 21:36:56 -  [Warning - TalkAction::configureEvent] Duplicate registered talkaction with words: /online
+2024-04-29 21:36:57 -  >> Loading chat channels
+2024-04-29 21:36:57 -  >> Loading outfits
+2024-04-29 21:36:57 -  >> Loading experience stages
+2024-04-29 21:36:57 -  >> Loading monsters
+2024-04-29 21:36:57 -  >> Loading mods...
+2024-04-29 21:36:57 -  > Loading firstitems.xml... done.
+2024-04-29 21:36:57 -  > 1 mods were loaded.
+2024-04-29 21:36:57 -  >> Loading map and spawns...
+2024-04-29 21:36:57 -  > Map size: 2501x4119.
+2024-04-29 21:36:57 -  > Map descriptions: 
+2024-04-29 21:36:57 -  "Saved with OTAcademy Map Editor 4.1.1"
+2024-04-29 21:36:57 -  "Poke Sapphire
+2024-04-29 21:36:57 -  Thalles and Bianca
+2024-04-29 21:36:57 -  
+2024-04-29 21:36:57 -  Map by [GM] Bob Dylan"
+2024-04-29 21:36:58 -  [Warning - IOMap::loadMap] Movable item in house: 187, item type: 2080, pos 1174/1007/7
+2024-04-29 21:36:59 -  [Warning - IOMap::loadMap] Movable item in house: 187, item type: 38041, pos 1175/1028/7
+2024-04-29 21:36:59 -  [Warning - IOMap::loadMap] Movable item in house: 162, item type: 38041, pos 1202/1041/7
+2024-04-29 21:37:00 -  
+2024-04-29 21:37:00 -  Thread 1 "theforgottenser" received signal SIGINT, Interrupt.
+2024-04-29 21:37:00 -  futex_wait_cancelable (private=0, expected=0, futex_word=0x5555557e57f0 <g_loaderSignal+80>) at ../sysdeps/nptl/futex-internal.h:186
+2024-04-29 21:37:00 -  186	../sysdeps/nptl/futex-internal.h: No such file or directory.
+2024-04-29 21:37:02 -  
+2024-04-29 21:37:02 -  Thread 2 (Thread 0x7ffff52a3700 (LWP 41462) "theforgottenser"):
+2024-04-29 21:37:02 -  #0  sysmalloc (nb=nb@entry=528, av=av@entry=0x7ffff0000020) at malloc.c:2720
+2024-04-29 21:37:02 -          old_top = 0x7fffa3fa5ed0
+2024-04-29 21:37:02 -          old_size = <optimized out>
+2024-04-29 21:37:02 -          old_end = <optimized out>
+2024-04-29 21:37:02 -          size = <optimized out>
+2024-04-29 21:37:02 -          brk = <optimized out>
+2024-04-29 21:37:02 -          correction = <optimized out>
+2024-04-29 21:37:02 -          snd_brk = <optimized out>
+2024-04-29 21:37:02 -          front_misalign = <optimized out>
+2024-04-29 21:37:02 -          end_misalign = <optimized out>
+2024-04-29 21:37:02 -          aligned_brk = <optimized out>
+2024-04-29 21:37:02 -          p = <optimized out>
+2024-04-29 21:37:02 -          remainder = 0x7fffa3fa60e0
+2024-04-29 21:37:02 -          remainder_size = <optimized out>
+2024-04-29 21:37:02 -          pagesize = <optimized out>
+2024-04-29 21:37:02 -          tried_mmap = <optimized out>
+2024-04-29 21:37:02 -          __PRETTY_FUNCTION__ = "sysmalloc"
+2024-04-29 21:37:02 -  #1  0x00007ffff770fe35 in _int_malloc (av=av@entry=0x7ffff0000020, bytes=bytes@entry=512) at malloc.c:4141
+2024-04-29 21:37:02 -          p = <optimized out>
+2024-04-29 21:37:02 -          iters = <optimized out>
+2024-04-29 21:37:02 -          nb = 528
+2024-04-29 21:37:02 -          idx = 34
+2024-04-29 21:37:02 -          bin = <optimized out>
+2024-04-29 21:37:02 -          victim = 0x7fffa3fa5ed0
+2024-04-29 21:37:02 -          size = <optimized out>
+2024-04-29 21:37:02 -          victim_index = <optimized out>
+2024-04-29 21:37:02 -          remainder = <optimized out>
+2024-04-29 21:37:02 -          remainder_size = <optimized out>
+2024-04-29 21:37:02 -          block = <optimized out>
+2024-04-29 21:37:02 -          bit = <optimized out>
+2024-04-29 21:37:02 -          map = <optimized out>
+2024-04-29 21:37:02 -          fwd = <optimized out>
+2024-04-29 21:37:02 -          bck = <optimized out>
+2024-04-29 21:37:02 -          tcache_unsorted_count = 0
+2024-04-29 21:37:02 -          tcache_nb = 528
+2024-04-29 21:37:02 -          tc_idx = 31
+2024-04-29 21:37:02 -          return_cached = <optimized out>
+2024-04-29 21:37:02 -          __PRETTY_FUNCTION__ = "_int_malloc"
+2024-04-29 21:37:02 -  #2  0x00007ffff7710f19 in __GI___libc_malloc (bytes=512) at malloc.c:3066
+2024-04-29 21:37:02 -          ar_ptr = 0x7ffff0000020
+2024-04-29 21:37:02 -          victim = <optimized out>
+2024-04-29 21:37:02 -          hook = <optimized out>
+2024-04-29 21:37:02 -          tbytes = <optimized out>
+2024-04-29 21:37:02 -          tc_idx = <optimized out>
+2024-04-29 21:37:02 -          __PRETTY_FUNCTION__ = "__libc_malloc"
+2024-04-29 21:37:02 -  #3  0x00007ffff7a630b5 in operator new(unsigned long) () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2024-04-29 21:37:02 -  No symbol table info available.
+2024-04-29 21:37:02 -  #4  0x00005555556820fc in QTreeLeafNode::createFloor (this=this@entry=0x7fffa3fa5e00, z=z@entry=7) at map.cpp:1159
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #5  0x00005555556831e5 in Map::setTile (this=this@entry=0x7fffe92d2a90, x=x@entry=1440, y=y@entry=1448, z=z@entry=7, newTile=newTile@entry=0x7fffa3fa5d90) at map.cpp:157
+2024-04-29 21:37:02 -          leaf = 0x7fffa3fa5e00
+2024-04-29 21:37:02 -          offsetX = 0
+2024-04-29 21:37:02 -          offsetY = 0
+2024-04-29 21:37:02 -          floor = <optimized out>
+2024-04-29 21:37:02 -  #6  0x0000555555634018 in IOMap::loadMap (this=this@entry=0x7fffe9522f10, map=map@entry=0x7fffe92d2a90, identifier="datapack/world/PGalaxy.otbm") at iomap.cpp:477
+2024-04-29 21:37:02 -          tileflags = <optimized out>
+2024-04-29 21:37:02 -          pz = 7
+2024-04-29 21:37:02 -          tileCoord = <optimized out>
+2024-04-29 21:37:02 -          px = 1440
+2024-04-29 21:37:02 -          tile = 0x7fffa3fa5d90
+2024-04-29 21:37:02 -          ground = 0x0
+2024-04-29 21:37:02 -          py = 1448
+2024-04-29 21:37:02 -          house = 0x0
+2024-04-29 21:37:02 -          attribute = <optimized out>
+2024-04-29 21:37:02 -          nodeItem = 0x0
+2024-04-29 21:37:02 -          base_x = 1280
+2024-04-29 21:37:02 -          base_z = 7
+2024-04-29 21:37:02 -          nodeTile = 0x7fffe67b57d0
+2024-04-29 21:37:02 -          area_coord = <optimized out>
+2024-04-29 21:37:02 -          base_y = 1280
+2024-04-29 21:37:02 -          f = {_vptr.FileLoader = 0x5555557d4e50 <vtable for FileLoader+16>, m_file = 0x7fffe92a0130, m_lastError = ERROR_NONE, m_root = 0x7fffe930cd50, m_buffer_size = 1024, m_buffer = 0x7ffff2090240 "\240\250\t\324\022\003\021\t\205-", m_use_cache = true, m_cache_size = 32768, m_cached_data = {{loaded = 1, base = 34111488, data = 0x7fffe9339670 "\001\376\005l\260\t\227\003\377\376\005l\261\t\227\003\377\376\005l\262\t\227\003\377\376\005l\263\t\227\003\377\376\005m\260\t\227\003\377\376\005m\261\t\227\003\377\376\005m\262\t\227\003\377\376\005m\263\t\227\003\377\376\005n\260\t\227\003\377\376\005n\261\t\227\003\377\376\005n\262\t\227\003\377\376\005n\263\t\227\003\377\376\005o\260\t\227\003\376\006i\003\377\377\376\005o\261\t\227\003\376\006i\003\377\377\376\005o\262\t\227\003\376\006i\003\377\377\376\005o\263\t\227\003\376\006i\003\377\377\377\376\004", size = 32768}, {loaded = 1, base = 34144256, data = 0x7fffe931d390 "\t\324\022\377\376\005\276\232\t\324\022\377\376\005\276\233\t\324\022\377\376\005\277\230\t\324\022\377\376\005\277\231\t\324\022\377\376\005\277\232\t\325\022\377\376\005\277\233\t\324\022\377\377\376\004", size = 32768}, {loaded = 1, base = 34078720, data = 0x7fffe936f2a0 "\a\376\005p\230\t\324\022\377\376\005p\231\t\324\022\377\376\005p\232\t\324\022\377\376\005p\233\t\324\022\377\376\005q\230\t\324\022\377\376\005q\231\t\324\022\377\376\005q\232\t\324\022\377\376\005q\233\t\324\022\377\376\005r\230\t\324\022\377\376\005r\231\t\324\022\377\376\005r\232\t\324\022\377\376\005r\233\t\324\022\377\376\005s\230\t\324\022\377\376\005s\231\t\324\022\377\376\005s\232\t\324\022\377\376\005s\233\t\324\022\377\376\005t\230\t\324\022\377\376\005t\231\t\324\022\377\376\005t\232\t\324\022\377\376\005t\233\t\324\022\377\376\005u\230\t\324\022\377\376\005u\231\t\324\022\377\376\005u\232\t\324\022\377\376\005u\233\t\324\022\377\376\005v\230\t\324\022"..., size = 32768}}, m_cache_index = 1, m_cache_offset = 5995}
+2024-04-29 21:37:02 -          type = 5
+2024-04-29 21:37:02 -          root = <optimized out>
+2024-04-29 21:37:02 -          propStream = {_vptr.PropStream = 0x5555557d4890 <vtable for PropStream+16>, p = 0x7ffff2090245 "\003\021\t\205-", end = 0x7ffff2090245 "\003\021\t\205-"}
+2024-04-29 21:37:02 -          rootHeader = <optimized out>
+2024-04-29 21:37:02 -          headerVersion = 2
+2024-04-29 21:37:02 -          headerMajorItems = <optimized out>
+2024-04-29 21:37:02 -          headerMinorItems = <optimized out>
+2024-04-29 21:37:02 -          nodeMap = <optimized out>
+2024-04-29 21:37:02 -          tmp = "house.xml"
+2024-04-29 21:37:02 -          attribute = <optimized out>
+2024-04-29 21:37:02 -          nodeMapData = 0x7fffe67adfa0
+2024-04-29 21:37:02 -  #7  0x0000555555680319 in Map::loadMap (this=this@entry=0x7fffe92d2a90, identifier="datapack/world/PGalaxy.otbm") at map.cpp:48
+2024-04-29 21:37:02 -          start = 1714426617161
+2024-04-29 21:37:02 -          loader = 0x7fffe9522f10
+2024-04-29 21:37:02 -  #8  0x00005555555e79b5 in Game::loadMap (this=this@entry=0x5555557e5ae0 <g_game>, filename="PGalaxy") at game.cpp:298
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #9  0x00005555556b5075 in otserv (args=std::vector of length 1, capacity 1 = {...}, services=services@entry=0x7fffffffe560) at otserv.cpp:740
+2024-04-29 21:37:02 -          ss = <incomplete type>
+2024-04-29 21:37:02 -          debug = ""
+2024-04-29 21:37:02 -          cores = std::vector of length 1, capacity 1 = {-1}
+2024-04-29 21:37:02 -          runPath = ""
+2024-04-29 21:37:02 -          encryptionType = "sha1"
+2024-04-29 21:37:02 -          p = 0x55555576ef28 "14299623962416399520070177382898895550795403345466153217470516082934737582776038882967213386204600674145392845853859217990626450972452084065728686565928113"
+2024-04-29 21:37:02 -          q = 0x55555576ee88 "7630979195970404721891201847792002125535401292779123937207447574596692788513647179235335529307251350570728407373705564708871762033017096809910315212884101"
+2024-04-29 21:37:02 -          d = 0x55555576ed50 "46730330223584118622160180015036832148732986808519344675210555262940258739805766860224610646919605860206328024326703361630109888417839241959507572247284807035235569619173792292786907845791904955103601"...
+2024-04-29 21:37:02 -          db = <optimized out>
+2024-04-29 21:37:02 -          worldType = ""
+2024-04-29 21:37:02 -          ip = ""
+2024-04-29 21:37:02 -          hostName = "\377\377\377\377", '\000' <repeats 12 times>, "\070Ri\367\377\177\000\000\200\037\000\000\377\377\002", '\000' <repeats 57 times>, "\070q\272\367\377\177\000\000\000\000\000\000\000\000\000\000~\342\377\377\377\177\000\000\177\342\377\377\377\177\000\000\300/*\365\377\177\000"
+2024-04-29 21:37:02 -          host = <optimized out>
+2024-04-29 21:37:02 -          resolvedIp = <optimized out>
+2024-04-29 21:37:02 -          ports = std::__cxx11::list = {[0] = 2912, [1] = 27584, [2] = 52288, [3] = 11456, [4] = 36160, [5] = 60864, [6] = 20032, [7] = 44736, [8] = 3904, [9] = 28608, [10] = 53312, [11] = 12480, [12] = 37184, [13] = 61888, [14] = 21056, [15] = 45760, [16] = 4928, [17] = 29632, [18] = 54336, [19] = 13504, [20] = 38208, [21] = 62912, [22] = 22080, [23] = 46784, [24] = 5952, [25] = 30656, [26] = 55360, [27] = 14528, [28] = 39232, [29] = 63936, [30] = 23104, [31] = 47808, [32] = 6976, [33] = 31680, [34] = 56384, [35] = 15552, [36] = 40256, [37] = 64960, [38] = 24128, [39] = 48832, [40] = 8000, [41] = 32704, [42] = 57408, [43] = 16576, [44] = 41280, [45] = 448, [46] = 25152, [47] = 49856, [48] = 9024, [49] = 33728, [50] = 58432, [51] = 17600, [52] = 42304, [53] = 1472, [54] = 26176, [55] = 50880, [56] = 10048, [57] = 34752, [58] = 59456, [59] = 18624, [60] = 43328, [61] = 2496, [62] = 27200, [63] = 51904, [64] = 11072, [65] = 35776, [66] = 60480, [67] = 19648, [68] = 44352, [69] = 3520, [70] = 28224, [71] = 52928, [72] = 12096, [73] = 36800, [74] = 61504, [75] = 20672, [76] = 45376, [77] = 4544, [78] = 29248, [79] = 53952, [80] = 13120, [81] = 37824, [82] = 62528, [83] = 21696, [84] = 46400, [85] = 5568, [86] = 30272, [87] = 54976, [88] = 14144, [89] = 38848, [90] = 63552, [91] = 22720, [92] = 47424, [93] = 6592, [94] = 31296, [95] = 56000, [96] = 15168, [97] = 39872, [98] = 64576, [99] = 23744, [100] = 100, [101] = 2912, [102] = 27584, [103] = 52288, [104] = 11456, [105] = 36160, [106] = 60864, [107] = 20032, [108] = 44736, [109] = 3904, [110] = 28608, [111] = 53312, [112] = 12480, [113] = 37184, [114] = 61888, [115] = 21056, [116] = 45760, [117] = 4928, [118] = 29632, [119] = 54336, [120] = 13504, [121] = 38208, [122] = 62912, [123] = 22080, [124] = 46784, [125] = 5952, [126] = 30656, [127] = 55360, [128] = 14528, [129] = 39232, [130] = 63936, [131] = 23104, [132] = 47808, [133] = 6976, [134] = 31680, [135] = 56384, [136] = 15552, [137] = 40256, [138] = 64960, [139] = 24128, [140] = 48832, [141] = 8000, [142] = 32704, [143] = 57408, [144] = 16576, [145] = 41280, [146] = 448, [147] = 25152, [148] = 49856, [149] = 9024, [150] = 33728, [151] = 58432, [152] = 17600, [153] = 42304, [154] = 1472, [155] = 26176, [156] = 50880, [157] = 10048, [158] = 34752, [159] = 59456, [160] = 18624, [161] = 43328, [162] = 2496, [163] = 27200, [164] = 51904, [165] = 11072, [166] = 35776, [167] = 60480, [168] = 19648, [169] = 44352, [170] = 3520, [171] = 28224, [172] = 52928, [173] = 12096, [174] = 36800, [175] = 61504, [176] = 20672, [177] = 45376, [178] = 4544, [179] = 29248, [180] = 53952, [181] = 13120, [182] = 37824, [183] = 62528, [184] = 21696, [185] = 46400, [186] = 5568, [187] = 30272, [188] = 54976, [189] = 14144, [190] = 38848, [191] = 63552, [192] = 22720, [193] = 47424, [194] = 6592, [195] = 31296, [196] = 56000, [197] = 15168, [198] = 39872, [199] = 64576...}
+2024-04-29 21:37:02 -  #10 0x00005555556b889d in boost::_bi::list2<boost::_bi::value<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::_bi::value<ServiceManager*> >::operator()<void (*)(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, ServiceManager*), boost::_bi::list0> (a=<synthetic pointer>..., f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:319
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #11 boost::_bi::bind_t<void, void (*)(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, ServiceManager*), boost::_bi::list2<boost::_bi::value<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::_bi::value<ServiceManager*> > >::operator() (this=<optimized out>) at /usr/include/boost/bind/bind.hpp:1294
+2024-04-29 21:37:02 -          a = {<No data fields>}
+2024-04-29 21:37:02 -          a = {<No data fields>}
+2024-04-29 21:37:02 -  #12 boost::detail::function::void_function_obj_invoker0<boost::_bi::bind_t<void, void (*)(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, ServiceManager*), boost::_bi::list2<boost::_bi::value<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, boost::_bi::value<ServiceManager*> > >, void>::invoke (function_obj_ptr=...) at /usr/include/boost/function/function_template.hpp:158
+2024-04-29 21:37:02 -          f = <optimized out>
+2024-04-29 21:37:02 -  #13 0x000055555573b0b4 in boost::function0<void>::operator() (this=0x5555558115b0) at /usr/include/boost/function/function_template.hpp:763
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #14 Task::operator() (this=0x5555558115a0) at tasks.h:34
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #15 Dispatcher::dispatcherThread (p=0x5555557e1f20 <Dispatcher::getInstance()::dispatcher>) at tasks.cpp:73
+2024-04-29 21:37:02 -          task = 0x5555558115a0
+2024-04-29 21:37:02 -          dispatcher = 0x5555557e1f20 <Dispatcher::getInstance()::dispatcher>
+2024-04-29 21:37:02 -          outputPool = 0x5555557e1fe0 <OutputMessagePool::getInstance()::instance>
+2024-04-29 21:37:02 -          taskLockUnique = {m = 0x5555557e1f28 <Dispatcher::getInstance()::dispatcher+8>, is_locked = false}
+2024-04-29 21:37:02 -  #16 0x0000555555716da2 in boost::_bi::list1<boost::_bi::value<void*> >::operator()<void (*)(void*), boost::_bi::list0> (a=<synthetic pointer>..., f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:259
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #17 boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > >::operator() (this=<optimized out>) at /usr/include/boost/bind/bind.hpp:1294
+2024-04-29 21:37:02 -          a = {<No data fields>}
+2024-04-29 21:37:02 -  #18 boost::detail::thread_data<boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > > >::run (this=<optimized out>) at /usr/include/boost/thread/detail/thread.hpp:120
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #19 0x00007ffff7bb7787 in ?? () from /lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+2024-04-29 21:37:02 -  No symbol table info available.
+2024-04-29 21:37:02 -  #20 0x00007ffff7b91ea7 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2024-04-29 21:37:02 -          ret = <optimized out>
+2024-04-29 21:37:02 -          pd = <optimized out>
+2024-04-29 21:37:02 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737306572544, 5101244116048345241, 140737488347774, 140737488347775, 140737306570688, 8396800, -5101267576749754215, -5101262207547148135}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2024-04-29 21:37:02 -          not_first_call = 0
+2024-04-29 21:37:02 -  #21 0x00007ffff7786a6f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  
+2024-04-29 21:37:02 -  Thread 1 (Thread 0x7ffff52a9b80 (LWP 41458) "theforgottenser"):
+2024-04-29 21:37:02 -  #0  futex_wait_cancelable (private=0, expected=0, futex_word=0x5555557e57f0 <g_loaderSignal+80>) at ../sysdeps/nptl/futex-internal.h:186
+2024-04-29 21:37:02 -          __ret = -512
+2024-04-29 21:37:02 -          oldtype = 0
+2024-04-29 21:37:02 -          err = <optimized out>
+2024-04-29 21:37:02 -          oldtype = <optimized out>
+2024-04-29 21:37:02 -          err = <optimized out>
+2024-04-29 21:37:02 -          __ret = <optimized out>
+2024-04-29 21:37:02 -          resultvar = <optimized out>
+2024-04-29 21:37:02 -          __arg4 = <optimized out>
+2024-04-29 21:37:02 -          __arg3 = <optimized out>
+2024-04-29 21:37:02 -          __arg2 = <optimized out>
+2024-04-29 21:37:02 -          __arg1 = <optimized out>
+2024-04-29 21:37:02 -          _a4 = <optimized out>
+2024-04-29 21:37:02 -          _a3 = <optimized out>
+2024-04-29 21:37:02 -          _a2 = <optimized out>
+2024-04-29 21:37:02 -          _a1 = <optimized out>
+2024-04-29 21:37:02 -  #1  __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x5555557e57a0 <g_loaderSignal>, cond=0x5555557e57c8 <g_loaderSignal+40>) at pthread_cond_wait.c:508
+2024-04-29 21:37:02 -          spin = 0
+2024-04-29 21:37:02 -          buffer = {__routine = 0x7ffff7b98540 <__condvar_cleanup_waiting>, __arg = 0x7fffffffe330, __canceltype = 0, __prev = 0x0}
+2024-04-29 21:37:02 -          cbuffer = {wseq = 0, cond = 0x5555557e57c8 <g_loaderSignal+40>, mutex = 0x5555557e57a0 <g_loaderSignal>, private = 0}
+2024-04-29 21:37:02 -          err = <optimized out>
+2024-04-29 21:37:02 -          g = 4294959888
+2024-04-29 21:37:02 -          flags = <optimized out>
+2024-04-29 21:37:02 -          g1_start = <optimized out>
+2024-04-29 21:37:02 -          maxspin = 0
+2024-04-29 21:37:02 -          signals = <optimized out>
+2024-04-29 21:37:02 -          result = 0
+2024-04-29 21:37:02 -          wseq = 0
+2024-04-29 21:37:02 -          seq = 0
+2024-04-29 21:37:02 -          private = 0
+2024-04-29 21:37:02 -          maxspin = <optimized out>
+2024-04-29 21:37:02 -          err = <optimized out>
+2024-04-29 21:37:02 -          result = <optimized out>
+2024-04-29 21:37:02 -          wseq = <optimized out>
+2024-04-29 21:37:02 -          g = <optimized out>
+2024-04-29 21:37:02 -          seq = <optimized out>
+2024-04-29 21:37:02 -          flags = <optimized out>
+2024-04-29 21:37:02 -          private = <optimized out>
+2024-04-29 21:37:02 -          signals = <optimized out>
+2024-04-29 21:37:02 -          done = <optimized out>
+2024-04-29 21:37:02 -          g1_start = <optimized out>
+2024-04-29 21:37:02 -          spin = <optimized out>
+2024-04-29 21:37:02 -          buffer = {__routine = <optimized out>, __arg = <optimized out>, __canceltype = <optimized out>, __prev = <optimized out>}
+2024-04-29 21:37:02 -          cbuffer = {wseq = <optimized out>, cond = <optimized out>, mutex = <optimized out>, private = <optimized out>}
+2024-04-29 21:37:02 -          s = <optimized out>
+2024-04-29 21:37:02 -  #2  __pthread_cond_wait (cond=cond@entry=0x5555557e57c8 <g_loaderSignal+40>, mutex=mutex@entry=0x5555557e57a0 <g_loaderSignal>) at pthread_cond_wait.c:638
+2024-04-29 21:37:02 -  No locals.
+2024-04-29 21:37:02 -  #3  0x00005555556b8e6e in boost::posix::pthread_cond_wait (m=<optimized out>, c=<optimized out>) at /usr/include/boost/thread/pthread/pthread_helpers.hpp:112
+2024-04-29 21:37:02 -          ret = <optimized out>
+2024-04-29 21:37:02 -  #4  boost::condition_variable::wait (this=this@entry=0x5555557e57a0 <g_loaderSignal>, m=...) at /usr/include/boost/thread/pthread/condition_variable.hpp:79
+2024-04-29 21:37:02 -          guard = {m = <optimized out>}
+2024-04-29 21:37:02 -          check_for_interruption = {thread_info = 0x0, m = 0x5555557e57a0 <g_loaderSignal>, set = false, done = false}
+2024-04-29 21:37:02 -          the_mutex = 0x5555557e57a0 <g_loaderSignal>
+2024-04-29 21:37:02 -          res = 0
+2024-04-29 21:37:02 -  #5  0x00005555556b3764 in main (argc=<optimized out>, argv=<optimized out>) at otserv.cpp:308
+2024-04-29 21:37:02 -          args = std::vector of length 1, capacity 1 = {"/home/servidor/theforgottenserver"}
+2024-04-29 21:37:02 -          servicer = {<boost::noncopyable_::noncopyable> = {<boost::noncopyable_::base_token> = {<No data fields>}, <No data fields>}, _vptr.ServiceManager = 0x5555557d5e48 <vtable for ServiceManager+16>, m_io_service = {<boost::asio::execution_context> = {<boost::asio::detail::noncopyable> = {<No data fields>}, service_registry_ = 0x555555810d10}, impl_ = @0x555555810d60}, deathTimer = {impl_ = {service_ = 0x555555810e60, implementation_ = {<boost::asio::detail::noncopyable> = {<No data fields>}, expiry = {<boost::date_time::base_time<boost::posix_time::ptime, boost::date_time::counted_time_system<boost::date_time::counted_time_rep<boost::posix_time::millisec_posix_time_system_config> > >> = {<boost::operators_impl::less_than_comparable<boost::posix_time::ptime, boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t>, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::true_t>> = {<boost::operators_impl::less_than_comparable1<boost::posix_time::ptime, boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t> >> = {<boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t>> = {<boost::operators_impl::equality_comparable1<boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime> >> = {<boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>> = {<No data fields>}, <No data fields>}, <No data fields>}, <No data fields>}, <No data fields>}, time_ = {time_count_ = {value_ = 9223372036854775806}}}, <No data fields>}, might_have_pending_waits = false, timer_data = {op_queue_ = {<boost::asio::detail::noncopyable> = {<No data fields>}, front_ = 0x0, back_ = 0x0}, heap_index_ = 18446744073709551615, next_ = 0x0, prev_ = 0x0}}, executor_ = {<boost::asio::execution::detail::any_executor_base> = {object_ = {__data = "h\345\377\377\377\177\000\000\020\063}U\000\000\000", __align = {<No data fields>}}, object_fns_ = 0x5555557d4740 <boost::asio::execution::detail::any_executor_base::object_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >(std::enable_if<(!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, void>::value)&&(!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, std::shared_ptr<void> >::value), void>::type*)::fns>, target_ = 0x7fffffffe5b8, target_fns_ = 0x5555557d4760 <boost::asio::execution::detail::any_executor_base::target_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >(bool, std::enable_if<!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, void>::value, void>::type*)::fns_with_execute>}, <boost::asio::execution::detail::any_executor_context<boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > >, boost::asio::execution::detail::supportable_properties<0, void(boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> >)>::find_context_as_property, void>> = {<No data fields>}, prop_fns_ = 0x5555557d4780 <boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > >::prop_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >()::fns>}}}, running = false, m_acceptors = std::map with 0 elements}
+2024-04-29 21:37:02 -          sigh = {__sigaction_handler = {sa_handler = 0x1, sa_sigaction = 0x1}, sa_mask = {__val = {0 <repeats 16 times>}}, sa_flags = 0, sa_restorer = 0x4000000042}
+2024-04-29 21:37:02 -          outPath = ""
+2024-04-29 21:37:02 -          errPath = Python Exception <class 'OverflowError'> int too big to convert: 
+2024-04-29 21:37:02 -  
+2024-04-29 21:37:02 -  > Saving server...
+2024-04-29 21:37:03 -  > SAVE: Complete in 0.597 seconds using relational house storage.
+2024-04-29 21:37:03 -  A debugging session is active.
+2024-04-29 21:37:03 -  
+2024-04-29 21:37:03 -  	Inferior 1 [process 41458] will be killed.
+2024-04-29 21:37:03 -  
+2024-04-29 21:37:03 -  Quit anyway? (y or n) [answered Y; input not from terminal]

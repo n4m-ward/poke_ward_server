@@ -1,0 +1,1503 @@
+2024-07-13 13:06:46 -  [Thread debugging using libthread_db enabled]
+2024-07-13 13:06:46 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2024-07-13 13:06:46 -  [New Thread 0x7ffff52a3700 (LWP 41977)]
+2024-07-13 13:06:46 -  otPokemon Imperium, version 0.3.6 (otPokemon Imperium.)
+2024-07-13 13:06:46 -  Compiled with GNU C++ version 10.2.1 20210110 at Jun 26 2024, 23:14:09.
+2024-07-13 13:06:46 -  A server developed by : GOD Vitor.
+2024-07-13 13:06:46 -  otPokemon Imperium - Pokemon Tibia Online.
+2024-07-13 13:06:46 -  
+2024-07-13 13:06:46 -  >> Loading config (config.lua)
+2024-07-13 13:06:46 -  > Using SHA1 encryption
+2024-07-13 13:06:46 -  >> Loading RSA key
+2024-07-13 13:06:46 -  >> Starting SQL connection
+2024-07-13 13:06:46 -  >> Running Database Manager
+2024-07-13 13:06:46 -  > Optimizing table: player_items... [success]
+2024-07-13 13:06:46 -  >> Loading items
+2024-07-13 13:06:46 -  >> Loading groups
+2024-07-13 13:06:46 -  >> Loading vocations
+2024-07-13 13:06:46 -  >> Loading script systems
+2024-07-13 13:06:47 -  >> Loading chat channels
+2024-07-13 13:06:47 -  >> Loading outfits
+2024-07-13 13:06:47 -  >> Loading experience stages
+2024-07-13 13:06:47 -  >> Loading monsters
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Sks Mewtwo) file (datapack/monster/pokes/geracao 1/Sks Mewtwo.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Gengar cm) file (datapack/monster/pokes/Control/CMGengar.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Alakazam cm) file (datapack/monster/pokes/Control/CMAlakazam.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Haunter cm) file (datapack/monster/pokes/Control/CMHaunter.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Slowking cm) file (datapack/monster/pokes/Control/CMSlowking.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Tentacruel cm) file (datapack/monster/pokes/Control/CMTentacruel.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Alakazam cm) file (datapack/monster/pokes/Control/CMShiny Alakazam.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Gengar cm) file (datapack/monster/pokes/Control/CMShiny Gengar.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 13:06:47 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Tentacruel cm) file (datapack/monster/pokes/Control/CMShiny Tentacruel.xml).
+2024-07-13 13:06:47 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  
+2024-07-13 13:06:47 -  >> Loading mods...
+2024-07-13 13:06:47 -  > Loading firstitems.xml... done.
+2024-07-13 13:06:47 -  > 1 mods were loaded.
+2024-07-13 13:06:47 -  >> Loading map and spawns...
+2024-07-13 13:06:48 -  > Map size: 2501x4119.
+2024-07-13 13:06:48 -  > Map descriptions: 
+2024-07-13 13:06:48 -  "Saved with Remere's Map Editor 3.7.0"
+2024-07-13 13:06:48 -  "Poke Sapphire
+2024-07-13 13:06:48 -  Thalles and Bianca
+2024-07-13 13:06:48 -  
+2024-07-13 13:06:48 -  Map by [GM] Bob Dylan"
+2024-07-13 13:06:50 -  [Warning - IOMap::loadMap] Movable item in house: 1099, item type: 2080, pos 1174/1007/7
+2024-07-13 13:06:51 -  [Warning - IOMap::loadMap] Movable item in house: 1101, item type: 38041, pos 1202/1041/7
+2024-07-13 13:06:55 -  > Map loading time: 8.545 seconds.
+2024-07-13 13:06:56 -  [Warning - Spawns::loadFromXml] Magneton ( 01652 / 00955 / 002 ) spawntime cannot be less than 1 seconds.
+2024-07-13 13:06:56 -  [Warning - Spawns::loadFromXml] Electabuzz ( 01640 / 00989 / 002 ) spawntime cannot be less than 1 seconds.
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Geraldo.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Geraldo.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Geraldo.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  [Warning - Spawns::loadFromXml] Voltorb ( 01640 / 00991 / 004 ) spawntime cannot be less than 1 seconds.
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/roberto.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/roberto.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/roberto.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Capitao Luiz.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Luiz.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Capitao Luiz.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Barbosa.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Barbosa.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/DD - Anlow.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/DD - Anlow.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/DD - Anlow.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Golett"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-07-13 13:06:56 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Spawn::addMonster] Cannot find "Guardian Magmar"
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (471)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (472)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (473)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (474)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (475)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (476)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (477)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (478)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1028)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1029)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1030)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1031)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1032)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1033)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1034)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1035)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1036)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1037)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1038)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1039)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1040)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1041)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1042)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1043)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1044)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1056)
+2024-07-13 13:06:56 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1094)
+2024-07-13 13:06:56 -  > Data parsing time: 0.26 seconds.
+2024-07-13 13:06:56 -  > Houses synchronization time: 0.123 seconds.
+2024-07-13 13:07:01 -  > Content unserialization time: 4.787 seconds.
+2024-07-13 13:07:01 -  >> Checking world type... NoN-PvP
+2024-07-13 13:07:01 -  >> Initializing game state modules and registering services...
+2024-07-13 13:07:01 -  [New Thread 0x7fff7ffff700 (LWP 41978)]
+2024-07-13 13:07:02 -  [Warning - Monster::Monster] Unknown event name - tp
+2024-07-13 13:07:03 -  > Global address: 85.209.93.118
+2024-07-13 13:07:03 -  > Local ports: 7172	7183	
+2024-07-13 13:07:03 -  >> All modules were loaded, server is starting up...
+2024-07-13 13:07:03 -  >> Green server Online!
+2024-07-13 13:07:03 -  
+2024-07-13 13:07:05 -  Dilian has logged in.
+2024-07-13 13:07:05 -  Lain has logged in.
+2024-07-13 13:07:06 -  Luanzin has logged in.
+2024-07-13 13:07:09 -  Xnenel has logged in.
+2024-07-13 13:07:11 -  Rimuru has logged in.
+2024-07-13 13:07:30 -  Superslow has logged in.
+2024-07-13 13:07:40 -  Okami has logged in.
+2024-07-13 13:08:33 -  Pumapjl has logged in.
+2024-07-13 13:08:55 -  Norann has logged in.
+2024-07-13 13:10:08 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 13:12:33 -  Dilian has logged out.
+2024-07-13 13:13:29 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 13:13:47 -  Netoo has logged in.
+2024-07-13 13:16:50 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 13:17:26 -  Dilian has logged in.
+2024-07-13 13:18:17 -  Albedo has logged in.
+2024-07-13 13:20:11 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 13:22:19 -  Superslow has logged out.
+2024-07-13 13:22:20 -  Superslow has logged in.
+2024-07-13 13:23:32 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 13:26:53 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 13:30:00 -  > Broadcasted message: "[PokeHUNTING] O evento comecou e vai durar 10 minuto. O pokemon sorteado foi Rattata! Quem matar mais deles ate o fim sera o vencedor!".
+2024-07-13 13:30:14 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 13:30:43 -  Dilian has logged out.
+2024-07-13 13:30:47 -  Dilian has logged in.
+2024-07-13 13:31:08 -  Superslow has logged out.
+2024-07-13 13:31:11 -  Superslow has logged in.
+2024-07-13 13:33:35 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 13:34:20 -  Lain has logged out.
+2024-07-13 13:36:56 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 13:39:28 -  Okami has logged out.
+2024-07-13 13:40:00 -  > Broadcasted message: "[PokeHUNTING] O jogador Luanzin matou 96 Rattatas e venceu o evento, parabens!".
+2024-07-13 13:40:17 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 13:40:23 -  Pumapjl has logged out.
+2024-07-13 13:41:09 -  Netoo has logged out.
+2024-07-13 13:41:36 -  Luanzin has logged out.
+2024-07-13 13:41:38 -  Luanzin has logged in.
+2024-07-13 13:42:18 -  Rimuru has logged out.
+2024-07-13 13:43:38 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 13:44:31 -  Okami has logged in.
+2024-07-13 13:46:59 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 13:47:36 -  [ADM] Venez has logged in.
+2024-07-13 13:50:20 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 13:52:05 -  Dilian has logged out.
+2024-07-13 13:52:10 -  Dilian has logged in.
+2024-07-13 13:53:41 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 13:54:06 -  Sr Koslov has logged in.
+2024-07-13 13:54:41 -  Dilian has logged out.
+2024-07-13 13:54:44 -  Dilian has logged in.
+2024-07-13 13:56:11 -  Superslow has logged out.
+2024-07-13 13:57:02 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 13:58:41 -  Dilian has logged out.
+2024-07-13 13:58:44 -  Dilian has logged in.
+2024-07-13 14:00:23 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 14:00:59 -  Sr Koslov has logged out.
+2024-07-13 14:01:00 -  Sr Koslov has logged in.
+2024-07-13 14:03:44 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 14:05:12 -  Albedo has logged out.
+2024-07-13 14:07:05 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 14:07:28 -  Albedo has logged in.
+2024-07-13 14:10:16 -  Xnenel has logged out.
+2024-07-13 14:10:26 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 14:10:49 -  Sr Koslov has logged out.
+2024-07-13 14:13:47 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 14:17:08 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 14:20:29 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 14:23:41 -  [ADM] Venez has logged out.
+2024-07-13 14:23:50 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 14:24:47 -  Dilian has logged out.
+2024-07-13 14:24:50 -  Dilian has logged in.
+2024-07-13 14:25:01 -  Pumapjl has logged in.
+2024-07-13 14:27:11 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 14:28:50 -  Vitor Sete has logged in.
+2024-07-13 14:30:32 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 14:31:27 -  Dilian has logged out.
+2024-07-13 14:33:53 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 14:34:20 -  Soneca has logged in.
+2024-07-13 14:37:14 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 14:40:07 -  Rimuru has logged in.
+2024-07-13 14:40:35 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 14:43:56 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 14:44:01 -  Black has logged in.
+2024-07-13 14:45:54 -  Black has logged out.
+2024-07-13 14:45:54 -  Vitor has logged in.
+2024-07-13 14:46:39 -  Vitor has logged out.
+2024-07-13 14:46:40 -  Black has logged in.
+2024-07-13 14:47:17 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 14:47:50 -  Ftz Night has logged in.
+2024-07-13 14:50:15 -  Soneca has logged out.
+2024-07-13 14:50:31 -  Soneca has logged in.
+2024-07-13 14:50:38 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 14:50:45 -  Vitor Sete has logged out.
+2024-07-13 14:50:47 -  Kayque has logged in.
+2024-07-13 14:51:23 -  Ftz Night has logged out.
+2024-07-13 14:51:32 -  Kayque has logged out.
+2024-07-13 14:51:34 -  Vitor Sete has logged in.
+2024-07-13 14:52:23 -  Ftz Night has logged in.
+2024-07-13 14:52:28 -  Ftz Night has logged out.
+2024-07-13 14:52:38 -  Black has logged out.
+2024-07-13 14:52:57 -  Ftz Night has logged in.
+2024-07-13 14:53:59 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 14:55:17 -  [ADM] Venez has logged in.
+2024-07-13 14:56:16 -  45.239.80.71 disconnected for exceeding packet per second limit.
+2024-07-13 14:57:20 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 14:57:54 -  [ADM] Venez has logged out.
+2024-07-13 14:57:58 -  Soneca has logged out.
+2024-07-13 14:58:00 -  Soneca has logged in.
+2024-07-13 14:59:45 -  
+2024-07-13 14:59:45 -  [Error - CreatureScript Interface] 
+2024-07-13 14:59:45 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 14:59:45 -  Description: 
+2024-07-13 14:59:45 -  datapack/lib/1 - task system.lua:182: attempt to index local 'v' (a number value)
+2024-07-13 14:59:45 -  stack traceback:
+2024-07-13 14:59:45 -  	datapack/lib/1 - task system.lua:182: in function 'onSendTaskWindow'
+2024-07-13 14:59:45 -  	datapack/creaturescripts/scripts/task.lua:21: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 14:59:47 -  
+2024-07-13 14:59:47 -  [Error - CreatureScript Interface] 
+2024-07-13 14:59:47 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 14:59:47 -  Description: 
+2024-07-13 14:59:47 -  datapack/lib/1 - task system.lua:182: attempt to index local 'v' (a number value)
+2024-07-13 14:59:47 -  stack traceback:
+2024-07-13 14:59:47 -  	datapack/lib/1 - task system.lua:182: in function 'onSendTaskWindow'
+2024-07-13 14:59:47 -  	datapack/creaturescripts/scripts/task.lua:21: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:04 -  
+2024-07-13 15:00:04 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:04 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:04 -  Description: 
+2024-07-13 15:00:04 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:04 -  stack traceback:
+2024-07-13 15:00:04 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:04 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:09 -  
+2024-07-13 15:00:09 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:09 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:09 -  Description: 
+2024-07-13 15:00:09 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:09 -  stack traceback:
+2024-07-13 15:00:09 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:09 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:09 -  
+2024-07-13 15:00:09 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:09 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:09 -  Description: 
+2024-07-13 15:00:09 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:09 -  stack traceback:
+2024-07-13 15:00:09 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:09 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:09 -  
+2024-07-13 15:00:09 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:09 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:09 -  Description: 
+2024-07-13 15:00:09 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:09 -  stack traceback:
+2024-07-13 15:00:09 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:09 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:15 -  
+2024-07-13 15:00:15 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:15 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:15 -  Description: 
+2024-07-13 15:00:15 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:15 -  stack traceback:
+2024-07-13 15:00:15 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:15 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:15 -  
+2024-07-13 15:00:15 -  [Error - CreatureScript Interface] 
+2024-07-13 15:00:15 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 15:00:15 -  Description: 
+2024-07-13 15:00:15 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 15:00:15 -  stack traceback:
+2024-07-13 15:00:15 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 15:00:15 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 15:00:20 -  Ftz Night has logged out.
+2024-07-13 15:00:41 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 15:04:02 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 15:07:23 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 15:10:06 -  Baambk has logged in.
+2024-07-13 15:10:44 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 15:12:36 -  Pumapjl has logged out.
+2024-07-13 15:14:05 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 15:17:12 -  Soneca has logged out.
+2024-07-13 15:17:13 -  
+2024-07-13 15:17:13 -  [Error - Npc interface] 
+2024-07-13 15:17:13 -  In a timer event called from: 
+2024-07-13 15:17:13 -  datapack/npc/scripts/heal.lua:onCreatureSay
+2024-07-13 15:17:13 -  Description: 
+2024-07-13 15:17:13 -  (luaGetPlayerSlotItem) Player not found
+2024-07-13 15:17:13 -  
+2024-07-13 15:17:13 -  [Error - Npc interface] 
+2024-07-13 15:17:13 -  In a timer event called from: 
+2024-07-13 15:17:13 -  datapack/npc/scripts/heal.lua:onCreatureSay
+2024-07-13 15:17:13 -  Description: 
+2024-07-13 15:17:13 -  (luaGetPlayerSlotItem) Player not found
+2024-07-13 15:17:14 -  Soneca has logged in.
+2024-07-13 15:17:26 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 15:20:47 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 15:22:39 -  Soneca has logged out.
+2024-07-13 15:24:08 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 15:27:29 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 15:29:23 -  Albedo has logged out.
+2024-07-13 15:30:50 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 15:34:11 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 15:37:32 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 15:40:23 -  Luanzin has logged out.
+2024-07-13 15:40:53 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 15:44:14 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 15:47:35 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 15:50:56 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 15:54:17 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 15:54:47 -  Rimuru has logged out.
+2024-07-13 15:54:52 -  Rimuru has logged in.
+2024-07-13 15:57:38 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 16:00:59 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 16:04:20 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 16:05:01 -  Superslow has logged in.
+2024-07-13 16:05:17 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 16:05:17 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 16:05:17 -  Klaus has logged in.
+2024-07-13 16:05:22 -  Superslow has logged out.
+2024-07-13 16:07:41 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 16:11:02 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 16:14:23 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 16:16:26 -  Norann has logged out.
+2024-07-13 16:17:44 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 16:19:48 -  Vitor Sete has logged out.
+2024-07-13 16:19:49 -  Vitor Sete has logged in.
+2024-07-13 16:21:05 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 16:24:15 -  Shapa has logged in.
+2024-07-13 16:24:26 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 16:25:02 -  [ADM] Venez has logged in.
+2024-07-13 16:25:15 -  [ADM] Venez has logged out.
+2024-07-13 16:27:47 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 16:31:00 -  > Broadcasted message: "[PokeHUNTING] O evento comecou e vai durar 10 minuto. O pokemon sorteado foi Magikarp! Quem matar mais deles ate o fim sera o vencedor!".
+2024-07-13 16:31:08 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 16:34:21 -  Baambk has logged out.
+2024-07-13 16:34:29 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 16:37:50 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 16:41:00 -  > Broadcasted message: "[PokeHUNTING] O jogador Rimuru matou 17 Magikarps e venceu o evento, parabens!".
+2024-07-13 16:41:11 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 16:44:32 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 16:47:53 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 16:49:19 -  Xnenel has logged in.
+2024-07-13 16:49:48 -  Luanzin has logged in.
+2024-07-13 16:51:14 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 16:54:35 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 16:57:56 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 17:01:17 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 17:04:38 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 17:07:59 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 17:11:20 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 17:14:41 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 17:16:17 -  Netoo has logged in.
+2024-07-13 17:18:02 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 17:21:23 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 17:22:11 -  Davi Jhones has logged in.
+2024-07-13 17:24:44 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 17:24:49 -  Davi Jhones has logged out.
+2024-07-13 17:26:39 -  Rimuru has logged out.
+2024-07-13 17:26:43 -  Rimuru has logged in.
+2024-07-13 17:28:05 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 17:28:15 -  Klaus has logged out.
+2024-07-13 17:28:24 -  [GM] Sidewalk has logged in.
+2024-07-13 17:29:03 -  Ftz Night has logged in.
+2024-07-13 17:30:53 -  Ftz Night has logged out.
+2024-07-13 17:30:56 -  [GM] Sidewalk has logged out.
+2024-07-13 17:31:02 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 17:31:02 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 17:31:02 -  Klaus has logged in.
+2024-07-13 17:31:23 -  Ftz Night has logged in.
+2024-07-13 17:31:26 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 17:34:47 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 17:35:18 -  Ftz Night has logged out.
+2024-07-13 17:35:20 -  Ftz Night has logged in.
+2024-07-13 17:35:34 -  Shapa has logged out.
+2024-07-13 17:36:10 -  Erickkk has logged in.
+2024-07-13 17:36:25 -  Ftz Night has logged out.
+2024-07-13 17:38:08 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 17:40:22 -  Netoo has logged out.
+2024-07-13 17:41:29 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 17:44:50 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 17:48:11 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 17:49:19 -  Vitor Sete has logged out.
+2024-07-13 17:51:32 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 17:51:37 -  Matheuszh has logged in.
+2024-07-13 17:51:49 -  Sedeusfezcabe has logged in.
+2024-07-13 17:54:53 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 17:57:19 -  Sedeusfezcabe has logged out.
+2024-07-13 17:58:14 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 18:00:16 -  Otomeuhugo has logged in.
+2024-07-13 18:01:35 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 18:04:56 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 18:08:14 -  Matheuszh has logged out.
+2024-07-13 18:08:17 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 18:11:38 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 18:11:58 -  Okami has logged out.
+2024-07-13 18:13:28 -  Okami has logged in.
+2024-07-13 18:14:47 -  Erickkk has logged out.
+2024-07-13 18:14:55 -  Erickkk has logged in.
+2024-07-13 18:14:59 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 18:18:20 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 18:21:36 -  Vitor Sete has logged in.
+2024-07-13 18:21:41 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 18:23:40 -  Crfmika has logged in.
+2024-07-13 18:23:59 -  Vitor Sete has logged out.
+2024-07-13 18:25:02 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 18:25:24 -  Erickkk has logged out.
+2024-07-13 18:25:26 -  Erickkk has logged in.
+2024-07-13 18:25:33 -  Erickkk has logged out.
+2024-07-13 18:28:15 -  Reis has logged in.
+2024-07-13 18:28:23 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 18:29:31 -  Reis has logged out.
+2024-07-13 18:29:53 -  Otomeuhugo has logged out.
+2024-07-13 18:31:44 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 18:35:05 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 18:38:26 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 18:40:57 -  Klaus has logged out.
+2024-07-13 18:41:40 -  Reis has logged in.
+2024-07-13 18:41:47 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 18:43:04 -  Rimuru has logged out.
+2024-07-13 18:43:06 -  Rimuru has logged in.
+2024-07-13 18:45:06 -  > Broadcasted message: "O torneio vai começar em 15 minutos, fale com o npc Nick no centro pokémon de kanto!!!. ".
+2024-07-13 18:45:08 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 18:45:15 -  Crfmika has logged out.
+2024-07-13 18:45:22 -  > Broadcasted message: "O torneio lvl +150 Vai comecar em 15 minutos, fale com npc Antonio no centro pokémon de Johto!!!".
+2024-07-13 18:45:36 -  > Broadcasted message: "O torneio lvl -150 Vai comecar em 15 minutos, fale com npc Antonio no centro pokémon de Johto!!!. ".
+2024-07-13 18:45:57 -  > Broadcasted message: "O torneio vai começar em 15 minutos, fale com o npc Nick no centro pokémon de kanto!!!. ".
+2024-07-13 18:48:20 -  Pumapjl has logged in.
+2024-07-13 18:48:26 -  Luanzin has logged out.
+2024-07-13 18:48:29 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 18:51:50 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 18:55:11 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 18:56:10 -  Reis has logged out.
+2024-07-13 18:56:12 -  Reis has logged in.
+2024-07-13 18:58:32 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 18:59:33 -  > Broadcasted message: "As inscrições do Torneio kanto fecharam!".
+2024-07-13 19:00:37 -  > Broadcasted message: "As inscrições do Torneio de Johto lvl 150+ fecharam!".
+2024-07-13 19:01:28 -  > Broadcasted message: "As inscrições do Torneio de Johto lvl 150- fecharam!".
+2024-07-13 19:01:53 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 19:02:58 -  
+2024-07-13 19:02:58 -  [Error - Action Interface] 
+2024-07-13 19:02:58 -  In a timer event called from: 
+2024-07-13 19:02:58 -  datapack/actions/scripts/catch.lua:onUse
+2024-07-13 19:02:58 -  Description: 
+2024-07-13 19:02:58 -  (luaDoAddContainerItem) Container not found
+2024-07-13 19:05:08 -  Vitor Sete has logged in.
+2024-07-13 19:05:14 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 19:05:33 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 19:05:33 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 19:05:33 -  Klaus has logged in.
+2024-07-13 19:07:59 -  
+2024-07-13 19:07:59 -  [Error - Action Interface] 
+2024-07-13 19:07:59 -  In a timer event called from: 
+2024-07-13 19:07:59 -  datapack/actions/scripts/catch.lua:onUse
+2024-07-13 19:07:59 -  Description: 
+2024-07-13 19:07:59 -  (luaDoAddContainerItem) Container not found
+2024-07-13 19:08:35 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 19:08:43 -  Frank Castle has logged in.
+2024-07-13 19:09:29 -  Xnenel has logged out.
+2024-07-13 19:09:31 -  Xnenel has logged in.
+2024-07-13 19:11:56 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 19:13:43 -  Okami has logged out.
+2024-07-13 19:15:17 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 19:15:40 -  [ADM] Venez has logged in.
+2024-07-13 19:15:46 -  [ADM] Venez has logged out.
+2024-07-13 19:15:56 -  Klaus has logged out.
+2024-07-13 19:17:59 -  Nenecozerah has logged in.
+2024-07-13 19:18:38 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 19:21:59 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 19:23:47 -  Abyss Razor has logged in.
+2024-07-13 19:25:20 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 19:25:31 -  Nenecozerah has logged out.
+2024-07-13 19:25:37 -  Nenecozerah has logged in.
+2024-07-13 19:28:41 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 19:29:10 -  Pumapjl has logged out.
+2024-07-13 19:31:00 -  > Broadcasted message: "[PokeHUNTING] O evento comecou e vai durar 9 minuto. O pokemon sorteado foi Caterpie! Quem matar mais deles ate o fim sera o vencedor!".
+2024-07-13 19:32:02 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 19:32:18 -  Reis has logged out.
+2024-07-13 19:35:24 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 19:36:19 -  Vitor Sete has logged out.
+2024-07-13 19:38:45 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 19:40:00 -  > Broadcasted message: "[PokeHUNTING] O jogador Rimuru matou 19 Caterpies e venceu o evento, parabens!".
+2024-07-13 19:42:06 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 19:42:22 -  Nenecozerah has logged out.
+2024-07-13 19:42:24 -  Nenecozerah has logged in.
+2024-07-13 19:42:56 -  Okami has logged in.
+2024-07-13 19:45:27 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 19:48:48 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 19:52:09 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 19:52:45 -  Samuelmazali has logged in.
+2024-07-13 19:53:28 -  Shapa has logged in.
+2024-07-13 19:54:27 -  Davi Jhones has logged in.
+2024-07-13 19:55:30 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 19:58:51 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 19:59:44 -  Pumapjl has logged in.
+2024-07-13 19:59:45 -  Samuelmazali has logged out.
+2024-07-13 20:01:55 -  Reis has logged in.
+2024-07-13 20:02:00 -  Reis has logged out.
+2024-07-13 20:02:12 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 20:02:38 -  Abyss Razor has logged out.
+2024-07-13 20:02:40 -  Abyss Razor has logged in.
+2024-07-13 20:02:47 -  Abyss Razor has logged out.
+2024-07-13 20:05:33 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 20:08:48 -  Frank Castle has logged out.
+2024-07-13 20:08:54 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 20:10:15 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 20:10:15 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 20:10:15 -  Klaus has logged in.
+2024-07-13 20:12:03 -  Klaus has logged out.
+2024-07-13 20:12:15 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 20:12:27 -  Atsuya has logged in.
+2024-07-13 20:15:36 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 20:18:49 -  Atsuya has logged out.
+2024-07-13 20:18:57 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 20:20:46 -  Okami has logged out.
+2024-07-13 20:20:47 -  Reis has logged in.
+2024-07-13 20:21:30 -  
+2024-07-13 20:21:30 -  [Error - CreatureScript Interface] 
+2024-07-13 20:21:30 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 20:21:30 -  Description: 
+2024-07-13 20:21:30 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 20:21:30 -  stack traceback:
+2024-07-13 20:21:30 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 20:21:30 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 20:21:31 -  
+2024-07-13 20:21:31 -  [Error - CreatureScript Interface] 
+2024-07-13 20:21:31 -  datapack/creaturescripts/scripts/task.lua:onExtendedOpcode
+2024-07-13 20:21:31 -  Description: 
+2024-07-13 20:21:31 -  datapack/lib/1 - task system.lua:242: attempt to index local 'v' (a number value)
+2024-07-13 20:21:31 -  stack traceback:
+2024-07-13 20:21:31 -  	datapack/lib/1 - task system.lua:242: in function 'onStartMission'
+2024-07-13 20:21:31 -  	datapack/creaturescripts/scripts/task.lua:14: in function <datapack/creaturescripts/scripts/task.lua:9>
+2024-07-13 20:22:18 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 20:25:04 -  Davi Jhones has logged out.
+2024-07-13 20:25:39 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 20:26:45 -  Norann has logged in.
+2024-07-13 20:27:47 -  Reis has logged out.
+2024-07-13 20:27:48 -  Reis has logged in.
+2024-07-13 20:29:00 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 20:31:05 -  Luanzin has logged in.
+2024-07-13 20:31:41 -  Reis has logged out.
+2024-07-13 20:31:42 -  Reis has logged in.
+2024-07-13 20:32:21 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 20:33:36 -  Okami has logged in.
+2024-07-13 20:35:42 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 20:38:27 -  Reis has logged out.
+2024-07-13 20:38:29 -  Reis has logged in.
+2024-07-13 20:39:03 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 20:42:24 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 20:45:45 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 20:49:06 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 20:52:27 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 20:53:12 -  Luanzin has logged out.
+2024-07-13 20:54:19 -  Luanzin has logged in.
+2024-07-13 20:55:48 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 20:59:09 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 21:02:06 -  Milark has logged in.
+2024-07-13 21:02:30 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 21:05:19 -  Milark has logged out.
+2024-07-13 21:05:37 -  Milarki has logged in.
+2024-07-13 21:05:51 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 21:06:36 -  Reis has logged out.
+2024-07-13 21:06:37 -  Reis has logged in.
+2024-07-13 21:08:49 -  Milarki has logged out.
+2024-07-13 21:08:52 -  Milark has logged in.
+2024-07-13 21:09:12 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 21:11:13 -  Nenecozerah has logged out.
+2024-07-13 21:12:33 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 21:15:54 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 21:19:13 -  Milark has logged out.
+2024-07-13 21:19:14 -  Milark has logged in.
+2024-07-13 21:19:15 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 21:20:41 -  Xsober has logged in.
+2024-07-13 21:20:42 -  Xsober has logged out.
+2024-07-13 21:20:45 -  Xsober has logged in.
+2024-07-13 21:20:46 -  Xsober has logged out.
+2024-07-13 21:20:49 -  Xsober has logged in.
+2024-07-13 21:20:50 -  Xsober has logged out.
+2024-07-13 21:21:38 -  Milark has logged out.
+2024-07-13 21:21:40 -  Milark has logged in.
+2024-07-13 21:21:41 -  Xsober has logged in.
+2024-07-13 21:21:42 -  Xsober has logged out.
+2024-07-13 21:21:52 -  Xsober has logged in.
+2024-07-13 21:21:53 -  Xsober has logged out.
+2024-07-13 21:21:55 -  Xsober has logged in.
+2024-07-13 21:21:56 -  Xsober has logged out.
+2024-07-13 21:22:19 -  Xsober has logged in.
+2024-07-13 21:22:20 -  Xsober has logged out.
+2024-07-13 21:22:29 -  Xsober has logged in.
+2024-07-13 21:22:30 -  Xsober has logged out.
+2024-07-13 21:22:33 -  Xsober has logged in.
+2024-07-13 21:22:34 -  Xsober has logged out.
+2024-07-13 21:22:36 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 21:22:57 -  Xsober has logged in.
+2024-07-13 21:22:58 -  Xsober has logged out.
+2024-07-13 21:22:59 -  Xsober has logged in.
+2024-07-13 21:23:00 -  Xsober has logged out.
+2024-07-13 21:23:01 -  Xsober has logged in.
+2024-07-13 21:23:02 -  Xsober has logged out.
+2024-07-13 21:23:03 -  Xsober has logged in.
+2024-07-13 21:23:04 -  Xsober has logged out.
+2024-07-13 21:23:05 -  Xsober has logged in.
+2024-07-13 21:23:06 -  Xsober has logged out.
+2024-07-13 21:23:31 -  Xsober has logged in.
+2024-07-13 21:23:32 -  Xsober has logged out.
+2024-07-13 21:23:35 -  Xsober has logged in.
+2024-07-13 21:23:36 -  Xsober has logged out.
+2024-07-13 21:23:37 -  Xsober has logged in.
+2024-07-13 21:23:38 -  Xsober has logged out.
+2024-07-13 21:23:39 -  Xsober has logged in.
+2024-07-13 21:23:40 -  Xsober has logged out.
+2024-07-13 21:23:53 -  Xsober has logged in.
+2024-07-13 21:23:54 -  Xsober has logged out.
+2024-07-13 21:23:55 -  Xsober has logged in.
+2024-07-13 21:23:56 -  Xsober has logged out.
+2024-07-13 21:23:58 -  Xsober has logged in.
+2024-07-13 21:23:59 -  Xsober has logged out.
+2024-07-13 21:24:00 -  Xsober has logged in.
+2024-07-13 21:24:01 -  Xsober has logged out.
+2024-07-13 21:24:25 -  Okami has logged out.
+2024-07-13 21:25:07 -  Okami has logged in.
+2024-07-13 21:25:42 -  Xsoberz has logged in.
+2024-07-13 21:25:43 -  Xsoberz has logged out.
+2024-07-13 21:25:57 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 21:26:44 -  Reis has logged out.
+2024-07-13 21:26:54 -  Xsoberz has logged in.
+2024-07-13 21:26:55 -  Xsoberz has logged out.
+2024-07-13 21:28:28 -  Milark has logged out.
+2024-07-13 21:28:29 -  Milark has logged in.
+2024-07-13 21:28:49 -  Milark has logged out.
+2024-07-13 21:29:18 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 21:29:24 -  Xsoberzz has logged in.
+2024-07-13 21:29:25 -  Xsoberzz has logged out.
+2024-07-13 21:29:26 -  Xsoberzz has logged in.
+2024-07-13 21:29:27 -  Xsoberzz has logged out.
+2024-07-13 21:29:30 -  Xsoberzz has logged in.
+2024-07-13 21:29:31 -  Xsoberzz has logged out.
+2024-07-13 21:31:53 -  Horonoa has logged in.
+2024-07-13 21:31:59 -  Zeider has logged in.
+2024-07-13 21:32:00 -  Zeider has logged out.
+2024-07-13 21:32:39 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 21:35:14 -  [ADM] Venez has logged in.
+2024-07-13 21:36:00 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 21:36:02 -  [ADM] Venez has logged out.
+2024-07-13 21:39:14 -  [ADM] Venez has logged in.
+2024-07-13 21:39:21 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 21:39:38 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:39 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:42 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:45 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:47 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:47 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:48 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:49 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:49 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:49 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:50 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:50 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:51 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:51 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:52 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:52 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:53 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:53 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:53 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:54 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:54 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:55 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:55 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:55 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:56 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:56 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:57 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:58 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:58 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:59 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:39:59 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:00 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:01 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:01 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:02 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:02 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:14 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:16 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:17 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:17 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:18 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:18 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:18 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:19 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:19 -  > [ADM] Venez broadcasted message: "Promoção de Donate até as 00h, 50R$ = 200 pontos.".
+2024-07-13 21:40:43 -  [ADM] Venez has logged out.
+2024-07-13 21:42:03 -  Luanzin has logged out.
+2024-07-13 21:42:05 -  Luanzin has logged in.
+2024-07-13 21:42:42 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 21:46:03 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 21:47:04 -  Nenecozerah has logged in.
+2024-07-13 21:49:24 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 21:50:18 -  Nenecozerah has logged out.
+2024-07-13 21:52:45 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 21:54:21 -  Reis has logged in.
+2024-07-13 21:56:06 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 21:56:39 -  Reis has logged out.
+2024-07-13 21:56:42 -  Reis has logged in.
+2024-07-13 21:59:27 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 22:02:48 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 22:04:03 -  Horonoa has logged out.
+2024-07-13 22:04:05 -  Horonoa has logged in.
+2024-07-13 22:06:09 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 22:09:30 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 22:12:07 -  Norann has logged out.
+2024-07-13 22:12:51 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 22:15:00 -  > Broadcasted message: "[PokeHUNTING] O evento comecou e vai durar 10 minuto. O pokemon sorteado foi Rattata! Quem matar mais deles ate o fim sera o vencedor!".
+2024-07-13 22:15:54 -  Luanzin has logged out.
+2024-07-13 22:16:12 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 22:16:38 -  Pumapjl has logged out.
+2024-07-13 22:18:26 -  Rimuru has logged out.
+2024-07-13 22:19:33 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 22:21:16 -  Rimuru has logged in.
+2024-07-13 22:22:41 -  [ADM] Venez has logged in.
+2024-07-13 22:22:50 -  [ADM] Venez has logged out.
+2024-07-13 22:22:54 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 22:25:00 -  > Broadcasted message: "[PokeHUNTING] O evento terminou e nao houve nenhum vencedor.".
+2024-07-13 22:26:15 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 22:29:36 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 22:32:16 -  Horonoa has logged out.
+2024-07-13 22:32:18 -  Horonoa has logged in.
+2024-07-13 22:32:57 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 22:35:10 -  Reis has logged out.
+2024-07-13 22:35:50 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 22:35:50 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-13 22:35:50 -  Klaus has logged in.
+2024-07-13 22:36:18 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 22:36:25 -  Reis has logged in.
+2024-07-13 22:38:55 -  [YT] Maaster has logged in.
+2024-07-13 22:39:34 -  Pumapjl has logged in.
+2024-07-13 22:39:39 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 22:40:58 -  Oldambra has logged in.
+2024-07-13 22:40:59 -  Oldambra has logged out.
+2024-07-13 22:41:02 -  Oldambra has logged in.
+2024-07-13 22:41:03 -  Oldambra has logged out.
+2024-07-13 22:41:05 -  Oldambra has logged in.
+2024-07-13 22:41:06 -  Oldambra has logged out.
+2024-07-13 22:41:07 -  Oldambra has logged in.
+2024-07-13 22:41:08 -  Oldambra has logged out.
+2024-07-13 22:41:35 -  Dilian has logged in.
+2024-07-13 22:42:53 -  Oldambra has logged in.
+2024-07-13 22:42:54 -  Oldambra has logged out.
+2024-07-13 22:42:58 -  Oldambra has logged in.
+2024-07-13 22:42:59 -  Oldambra has logged out.
+2024-07-13 22:43:00 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 22:43:08 -  Oldambra has logged in.
+2024-07-13 22:43:09 -  Oldambra has logged out.
+2024-07-13 22:43:12 -  Oldambra has logged in.
+2024-07-13 22:43:13 -  Oldambra has logged out.
+2024-07-13 22:43:14 -  Oldambra has logged in.
+2024-07-13 22:43:15 -  Oldambra has logged out.
+2024-07-13 22:43:16 -  Oldambra has logged in.
+2024-07-13 22:43:17 -  Oldambra has logged out.
+2024-07-13 22:43:26 -  Eliel has logged in.
+2024-07-13 22:43:27 -  Oldambra has logged in.
+2024-07-13 22:43:28 -  Oldambra has logged out.
+2024-07-13 22:43:29 -  Oldambra has logged in.
+2024-07-13 22:43:30 -  Oldambra has logged out.
+2024-07-13 22:43:31 -  Oldambra has logged in.
+2024-07-13 22:43:32 -  Oldambra has logged out.
+2024-07-13 22:43:33 -  Oldambra has logged in.
+2024-07-13 22:43:34 -  Oldambra has logged out.
+2024-07-13 22:43:34 -  Oldambra has logged in.
+2024-07-13 22:43:35 -  Oldambra has logged out.
+2024-07-13 22:43:49 -  Shapa has logged out.
+2024-07-13 22:45:23 -  > Broadcasted message: "O torneio lvl +150 Vai comecar em 15 minutos, fale com npc Antonio no centro pokémon de Johto!!!".
+2024-07-13 22:45:29 -  > Broadcasted message: "O torneio lvl -150 Vai comecar em 15 minutos, fale com npc Antonio no centro pokémon de Johto!!!.".
+2024-07-13 22:45:41 -  > Broadcasted message: "O torneio vai começar em 15 minutos, fale com o npc Nick no centro pokémon de kanto!!!.".
+2024-07-13 22:46:13 -  Okami has logged out.
+2024-07-13 22:46:21 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 22:48:03 -  Albedo has logged in.
+2024-07-13 22:48:09 -  Shapa has logged in.
+2024-07-13 22:49:42 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 22:53:03 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 22:56:24 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 22:58:05 -  Dilian has logged out.
+2024-07-13 22:58:08 -  Dilian has logged in.
+2024-07-13 22:58:24 -  [YT] Maaster has logged out.
+2024-07-13 22:59:17 -  > Broadcasted message: "As inscrições do Torneio kanto fecharam!".
+2024-07-13 22:59:45 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 23:00:38 -  > Broadcasted message: "As inscrições do Torneio de Johto lvl 150+ fecharam!".
+2024-07-13 23:01:21 -  > Broadcasted message: "As inscrições do Torneio de Johto lvl 150- fecharam!".
+2024-07-13 23:03:06 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 23:05:35 -  Reis has logged out.
+2024-07-13 23:06:27 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 23:09:48 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 23:11:52 -  [ADM] Venez has logged in.
+2024-07-13 23:13:09 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 23:16:30 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 23:18:27 -  Frank Castle has logged in.
+2024-07-13 23:18:46 -  [ADM] Venez has logged out.
+2024-07-13 23:18:47 -  [ADM] Venez has logged in.
+2024-07-13 23:19:47 -  [ADM] Venez has logged out.
+2024-07-13 23:19:51 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 23:23:12 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 23:23:42 -  [ADM] Venez has logged in.
+2024-07-13 23:24:34 -  Pumapjl has logged out.
+2024-07-13 23:24:43 -  [ADM] Venez has logged out.
+2024-07-13 23:26:11 -  Eliel has logged out.
+2024-07-13 23:26:32 -  Horonoa has logged out.
+2024-07-13 23:26:33 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 23:26:36 -  [ADM] Venez has logged in.
+2024-07-13 23:26:41 -  Reis has logged in.
+2024-07-13 23:28:23 -  Dilian has logged out.
+2024-07-13 23:28:28 -  Dilian has logged in.
+2024-07-13 23:29:54 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-13 23:31:19 -  Dilian has logged out.
+2024-07-13 23:31:22 -  Dilian has logged in.
+2024-07-13 23:33:15 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-13 23:33:55 -  Dilian has logged out.
+2024-07-13 23:34:22 -  Pumapjl has logged in.
+2024-07-13 23:34:29 -  Pumapjl has logged out.
+2024-07-13 23:36:36 -  Dilian has logged in.
+2024-07-13 23:36:36 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-13 23:39:06 -  Shapa has logged out.
+2024-07-13 23:39:57 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-13 23:43:18 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-13 23:45:50 -  Dilian has logged out.
+2024-07-13 23:45:54 -  Dilian has logged in.
+2024-07-13 23:46:39 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-13 23:46:51 -  I/O warning : failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 23:46:51 -  [Warning - Monsters::loadMonster] Cannot load monster (Sks Mewtwo) file (datapack/monster/pokes/geracao 1/Sks Mewtwo.xml).
+2024-07-13 23:46:51 -  Info: failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 23:46:51 -  
+2024-07-13 23:46:51 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Gengar cm) file (datapack/monster/pokes/Control/CMGengar.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Alakazam cm) file (datapack/monster/pokes/Control/CMAlakazam.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Haunter cm) file (datapack/monster/pokes/Control/CMHaunter.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Slowking cm) file (datapack/monster/pokes/Control/CMSlowking.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Tentacruel cm) file (datapack/monster/pokes/Control/CMTentacruel.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Alakazam cm) file (datapack/monster/pokes/Control/CMShiny Alakazam.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Gengar cm) file (datapack/monster/pokes/Control/CMShiny Gengar.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 23:46:52 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Tentacruel cm) file (datapack/monster/pokes/Control/CMShiny Tentacruel.xml).
+2024-07-13 23:46:52 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 23:46:52 -  
+2024-07-13 23:46:52 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Sks Mewtwo) file (datapack/monster/pokes/geracao 1/Sks Mewtwo.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/geracao 1/Sks Mewtwo.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Gengar cm) file (datapack/monster/pokes/Control/CMGengar.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMGengar.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Alakazam cm) file (datapack/monster/pokes/Control/CMAlakazam.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMAlakazam.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Haunter cm) file (datapack/monster/pokes/Control/CMHaunter.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMHaunter.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Slowking cm) file (datapack/monster/pokes/Control/CMSlowking.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMSlowking.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Tentacruel cm) file (datapack/monster/pokes/Control/CMTentacruel.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMTentacruel.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Alakazam cm) file (datapack/monster/pokes/Control/CMShiny Alakazam.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Alakazam.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Gengar cm) file (datapack/monster/pokes/Control/CMShiny Gengar.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Gengar.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  I/O warning : failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 23:47:11 -  [Warning - Monsters::loadMonster] Cannot load monster (Shiny Tentacruel cm) file (datapack/monster/pokes/Control/CMShiny Tentacruel.xml).
+2024-07-13 23:47:11 -  Info: failed to load external entity "datapack/monster/pokes/Control/CMShiny Tentacruel.xml"
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:11 -  
+2024-07-13 23:47:39 -  Klaus has logged out.
+2024-07-13 23:47:54 -  Albedo has logged out.
+2024-07-13 23:50:00 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-13 23:52:48 -  Horonoa has logged in.
+2024-07-13 23:53:21 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-13 23:53:23 -  Xnenel has logged out.
+2024-07-13 23:56:42 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-13 23:57:56 -  Baambk has logged in.
+2024-07-13 23:58:58 -  [ADM] Venez has logged out.
+2024-07-13 23:59:55 -  Albedo has logged in.
+2024-07-14 00:00:03 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-14 00:01:29 -  [ADM] Venez has logged in.
+2024-07-14 00:03:24 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-14 00:05:00 -  > Broadcasted message: "[PokeHUNTING] O evento comecou e vai durar 9 minuto. O pokemon sorteado foi Rattata! Quem matar mais deles ate o fim sera o vencedor!".
+2024-07-14 00:05:30 -  [ADM] Venez has logged out.
+2024-07-14 00:06:45 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-14 00:10:06 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-14 00:13:27 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-14 00:14:00 -  > Broadcasted message: "[PokeHUNTING] O jogador Frank Castle matou 101 Rattatas e venceu o evento, parabens!".
+2024-07-14 00:16:14 -  Dilian has logged out.
+2024-07-14 00:16:17 -  Dilian has logged in.
+2024-07-14 00:16:48 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-14 00:17:34 -  Baambk has logged out.
+2024-07-14 00:20:03 -  Horonoa has logged out.
+2024-07-14 00:20:05 -  Horonoa has logged in.
+2024-07-14 00:20:09 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-14 00:21:28 -  Dilian has logged out.
+2024-07-14 00:21:31 -  Dilian has logged in.
+2024-07-14 00:23:30 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-14 00:26:51 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-14 00:27:28 -  Horonoa has logged out.
+2024-07-14 00:27:31 -  Horonoa has logged in.
+2024-07-14 00:30:12 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-14 00:32:32 -  Reis has logged out.
+2024-07-14 00:33:33 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-14 00:36:06 -  Horonoa has logged out.
+2024-07-14 00:36:07 -  Horonoa has logged in.
+2024-07-14 00:36:54 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-14 00:39:32 -  Horonoa has logged out.
+2024-07-14 00:39:33 -  Horonoa has logged in.
+2024-07-14 00:40:15 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-14 00:43:36 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-14 00:46:08 -  Rugal Gostoso has logged in.
+2024-07-14 00:46:48 -  Dilian has logged out.
+2024-07-14 00:46:55 -  Dilian has logged in.
+2024-07-14 00:46:57 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-14 00:50:18 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-14 00:53:40 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-14 00:56:05 -  Dilian has logged out.
+2024-07-14 00:56:09 -  Dilian has logged in.
+2024-07-14 00:57:01 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-14 00:57:03 -  Horonoa has logged out.
+2024-07-14 00:57:04 -  Horonoa has logged in.
+2024-07-14 01:00:17 -  Dilian has logged out.
+2024-07-14 01:00:22 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-14 01:03:21 -  Rugal Gostoso has logged out.
+2024-07-14 01:03:43 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-14 01:05:05 -  [ADM] Venez has logged in.
+2024-07-14 01:05:21 -  Rugal Gostoso has logged in.
+2024-07-14 01:07:04 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-14 01:09:47 -  Rugal Gostoso has logged out.
+2024-07-14 01:09:50 -  Rugal Gostoso has logged in.
+2024-07-14 01:10:25 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-14 01:10:39 -  [ADM] Venez has logged out.
+2024-07-14 01:13:46 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-14 01:17:07 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-14 01:18:10 -  Dilian has logged in.
+2024-07-14 01:20:28 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-14 01:22:39 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-14 01:22:39 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-14 01:22:39 -  Klaus has logged in.
+2024-07-14 01:23:49 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-14 01:24:00 -  Rugal Gostoso has logged out.
+2024-07-14 01:24:02 -  Rugal Gostoso has logged in.
+2024-07-14 01:27:10 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-14 01:30:31 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-14 01:33:52 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-14 01:36:05 -  Albedo has logged out.
+2024-07-14 01:36:11 -  Rugal Gostoso has logged out.
+2024-07-14 01:37:13 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-14 01:38:52 -  Dilian has logged out.
+2024-07-14 01:38:55 -  Dilian has logged in.
+2024-07-14 01:40:13 -  Luanzin has logged in.
+2024-07-14 01:40:34 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-14 01:43:55 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-14 01:47:16 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-14 01:50:37 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-14 01:53:58 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-14 01:57:00 -  Horonoa has logged out.
+2024-07-14 01:57:11 -  Klaus has logged out.
+2024-07-14 01:57:15 -  [GM] Sidewalk has logged in.
+2024-07-14 01:57:19 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-14 02:00:40 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-07-14 02:02:20 -  [GM] Sidewalk has logged out.
+2024-07-14 02:02:24 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-14 02:02:24 -  [Warning - Groups::getGroup] Group 0 not found.
+2024-07-14 02:02:24 -  Klaus has logged in.
+2024-07-14 02:02:52 -  Dilian has logged out.
+2024-07-14 02:02:56 -  Dilian has logged in.
+2024-07-14 02:04:01 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-07-14 02:07:22 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-07-14 02:10:43 -  > Broadcasted message: "Preparem-se para a diversão! Todos os finais de semana teremos eventos especiais. Fiquem ligados para participar e ganhar prêmios incríveis!".
+2024-07-14 02:11:58 -  Vitor Sete has logged in.
+2024-07-14 02:14:04 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.pokenight.com. Fiquem atentos e joguem com segurança!".
+2024-07-14 02:17:25 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-07-14 02:20:46 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-07-14 02:24:04 -  Dilian has logged out.
+2024-07-14 02:24:07 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-07-14 02:27:28 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-07-14 02:30:49 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".

@@ -1,0 +1,730 @@
+2024-04-29 21:07:32 -  [Thread debugging using libthread_db enabled]
+2024-04-29 21:07:32 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2024-04-29 21:07:32 -  [New Thread 0x7ffff52a3700 (LWP 41275)]
+2024-04-29 21:07:32 -  otPokemon Imperium, version 0.3.6 (otPokemon Imperium.)
+2024-04-29 21:07:32 -  Compiled with GNU C++ version 10.2.1 20210110 at Apr 29 2024, 21:03:29.
+2024-04-29 21:07:32 -  A server developed by : GOD Vitor.
+2024-04-29 21:07:32 -  otPokemon Imperium - Pokemon Tibia Online.
+2024-04-29 21:07:32 -  
+2024-04-29 21:07:32 -  >> Loading config (config.lua)
+2024-04-29 21:07:32 -  > Using SHA1 encryption
+2024-04-29 21:07:32 -  >> Loading RSA key
+2024-04-29 21:07:32 -  >> Starting SQL connection
+2024-04-29 21:07:32 -  >> Running Database Manager
+2024-04-29 21:07:33 -  > Optimizing table: player_items... [success]
+2024-04-29 21:07:33 -  > Optimizing table: player_depotitems... [success]
+2024-04-29 21:07:33 -  > Optimizing table: player_storage... [success]
+2024-04-29 21:07:33 -  >> Loading items
+2024-04-29 21:07:33 -  >> Loading groups
+2024-04-29 21:07:33 -  >> Loading vocations
+2024-04-29 21:07:33 -  >> Loading script systems
+2024-04-29 21:07:33 -  [Warning - TalkAction::configureEvent] Duplicate registered talkaction with words: /online
+2024-04-29 21:07:33 -  >> Loading chat channels
+2024-04-29 21:07:33 -  >> Loading outfits
+2024-04-29 21:07:33 -  >> Loading experience stages
+2024-04-29 21:07:33 -  >> Loading monsters
+2024-04-29 21:07:33 -  >> Loading mods...
+2024-04-29 21:07:33 -  > Loading firstitems.xml... done.
+2024-04-29 21:07:33 -  > 1 mods were loaded.
+2024-04-29 21:07:33 -  >> Loading map and spawns...
+2024-04-29 21:07:34 -  > Map size: 2501x4119.
+2024-04-29 21:07:34 -  > Map descriptions: 
+2024-04-29 21:07:34 -  "Saved with OTAcademy Map Editor 4.1.1"
+2024-04-29 21:07:34 -  "Poke Sapphire
+2024-04-29 21:07:34 -  Thalles and Bianca
+2024-04-29 21:07:34 -  
+2024-04-29 21:07:34 -  Map by [GM] Bob Dylan"
+2024-04-29 21:07:35 -  [Warning - IOMap::loadMap] Movable item in house: 187, item type: 2080, pos 1174/1007/7
+2024-04-29 21:07:36 -  [Warning - IOMap::loadMap] Movable item in house: 187, item type: 38041, pos 1175/1028/7
+2024-04-29 21:07:36 -  [Warning - IOMap::loadMap] Movable item in house: 162, item type: 38041, pos 1202/1041/7
+2024-04-29 21:07:41 -  > Map loading time: 7.742 seconds.
+2024-04-29 21:07:41 -  [Warning - Spawns::loadFromXml] Magneton ( 01652 / 00955 / 002 ) spawntime cannot be less than 1 seconds.
+2024-04-29 21:07:41 -  [Warning - Spawns::loadFromXml] Electabuzz ( 01640 / 00989 / 002 ) spawntime cannot be less than 1 seconds.
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Geraldo.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Geraldo.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Geraldo.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  [Warning - Spawns::loadFromXml] Voltorb ( 01640 / 00991 / 004 ) spawntime cannot be less than 1 seconds.
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/roberto.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/roberto.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/roberto.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gigalith"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Capitao Luiz.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Luiz.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Capitao Luiz.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Barbosa.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Capitao Barbosa.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Capitao Barbosa.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/DD - Anlow.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/DD - Anlow.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/DD - Anlow.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Golett"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  I/O warning : failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  [Warning - Npc::loadFromXml] Cannot load npc file (datapack/npc/Nurse Audino.xml).
+2024-04-29 21:07:41 -  Info: failed to load external entity "datapack/npc/Nurse Audino.xml"
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Darmanitan"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansear"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Zweilous"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Pansage"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Gothorita"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Cubchoo"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Beartic"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Oshawott"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Spawn::addMonster] Cannot find "Krookodile"
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (471)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (472)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (473)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (474)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (475)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (476)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (477)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (478)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1028)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1029)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1030)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1031)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1032)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1033)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1034)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1035)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1036)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1037)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1038)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1039)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1040)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1041)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1042)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1043)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1044)
+2024-04-29 21:07:41 -  [Warning - Houses::loadFromXml] House entry not set for: Forgotten headquarter (Flat 1, Area 42) (1056)
+2024-04-29 21:07:41 -  > Data parsing time: 0.287 seconds.
+2024-04-29 21:07:41 -  > Houses synchronization time: 0.11 seconds.
+2024-04-29 21:07:46 -  > Content unserialization time: 4.607 seconds.
+2024-04-29 21:07:46 -  >> Checking world type... NoN-PvP
+2024-04-29 21:07:46 -  >> Initializing game state modules and registering services...
+2024-04-29 21:07:46 -  [New Thread 0x7fff6ffff700 (LWP 41284)]
+2024-04-29 21:07:48 -  [Warning - Monster::Monster] Unknown event name - tp
+2024-04-29 21:07:48 -  > Global address: 77.37.41.249
+2024-04-29 21:07:48 -  > Local ports: 7172	7183	
+2024-04-29 21:07:48 -  >> All modules were loaded, server is starting up...
+2024-04-29 21:07:48 -  >> Blue server Online!
+2024-04-29 21:07:48 -  
+2024-04-29 21:08:23 -  [ADM] Thalles77 has logged in.
+2024-04-29 21:08:42 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:08:43 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:08:46 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:08:47 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:08:49 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:08:50 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:08:52 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:08:52 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:16 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:17 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:19 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:19 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:29 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:29 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:32 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:33 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:34 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:35 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:36 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:37 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:09:39 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:09:39 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:10:45 -  0 [ADM] HellSing has logged in.
+2024-04-29 21:10:54 -  > Broadcasted message: "Evitem acessar sites falsos! Nosso único site oficial é www.otpokemonmysterious.net. Fiquem atentos e joguem com segurança!".
+2024-04-29 21:12:53 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:13:58 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:14:15 -  > Broadcasted message: "Está curtindo o servidor? Que tal convidar seus amigos para se juntarem a você? A diversão é ainda melhor quando compartilhada!".
+2024-04-29 21:15:22 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:15:47 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:17:36 -  > Broadcasted message: "Pedimos desculpas pelas quedas e bugs. Estamos trabalhando para melhorar a estabilidade. Agradecemos sua paciência.".
+2024-04-29 21:18:14 -  [Warning - Event::loadScript] Event onUse not found (datapack/actions/scripts/bota.lua)
+2024-04-29 21:18:16 -  > Broadcasted message: "Parabéns ao treinador [ADM] Thalles77 foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:19:26 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:20:49 -  > Broadcasted message: "Parabéns ao treinador [ADM] Thalles77 foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:20:57 -  > Broadcasted message: "Problemas para chamar seu Pokémon ou com o comando 'order'? Vá até o Centro Pokémon e clique no computador ao lado de Nurse Joy para resolver.".
+2024-04-29 21:21:02 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:24:18 -  > Broadcasted message: "Roubos são estritamente proibidos. Se você tiver evidências, por favor, apresente-as à administração para que a punição adequada seja aplicada ao infrator. Juntos, mantemos a integridade do servidor.".
+2024-04-29 21:26:08 -  > Broadcasted message: "Parabéns ao treinador [ADM] Thalles77 foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:26:10 -  > Broadcasted message: "Parabéns ao treinador [ADM] Thalles77 foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:26:35 -  > Broadcasted message: "Parabéns ao treinador [ADM] Thalles77 foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:26:35 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:26:40 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:26:50 -  > Broadcasted message: "Parabéns ao treinador 0 [ADM] HellSing foi o ganhador do torneio de johto 150- de hoje, verifique o RANK em nosso site: pokesapphire.com!".
+2024-04-29 21:27:39 -  > Broadcasted message: "Quer expressar uma reclamação, protestar ou simplesmente conversar? Utilize o chat do jogo para isso. O canal de ajuda (help) deve ser usado exclusivamente para esclarecer dúvidas sobre o jogo, sem spoilers. Agradecemos sua cooperação!".
+2024-04-29 21:30:45 -  0 [ADM] HellSing has logged out.
+2024-04-29 21:31:00 -  > Broadcasted message: "É estritamente proibido vender itens do jogo por dinheiro real. Qualquer violação dessa regra está sujeita a banimento permanente. Mantenhamos o jogo justo e divertido para todos!".
+2024-04-29 21:33:58 -  
+2024-04-29 21:34:19 -  [ADM] Thalles77 has logged out.
+2024-04-29 21:34:21 -  [ADM] Thalles77 has logged in.
+2024-04-29 21:34:21 -  > Broadcasted message: "Todas as doações recebidas para o servidor são usadas para adquirir novos sistemas e implementar melhorias. Agradecemos imensamente a todos que estão contribuindo para tornar nossa comunidade ainda melhor!".
+2024-04-29 21:34:33 -  
+2024-04-29 21:34:33 -  Thread 1 "theforgottenser" received signal SIGINT, Interrupt.
+2024-04-29 21:34:33 -  0x00007ffff7786d96 in epoll_wait (epfd=4, events=events@entry=0x7fffffffdc50, maxevents=maxevents@entry=128, timeout=timeout@entry=-1) at ../sysdeps/unix/sysv/linux/epoll_wait.c:30
+2024-04-29 21:34:33 -  30	../sysdeps/unix/sysv/linux/epoll_wait.c: No such file or directory.
+2024-04-29 21:34:33 -  
+2024-04-29 21:34:33 -  Thread 3 (Thread 0x7fff6ffff700 (LWP 41284) "theforgottenser"):
+2024-04-29 21:34:33 -  #0  futex_abstimed_wait_cancelable (private=0, abstime=0x7fff6fffee50, clockid=1879043408, expected=0, futex_word=0x5555557e1db8 <Scheduler::getInstance()::scheduler+184>) at ../sysdeps/nptl/futex-internal.h:323
+2024-04-29 21:34:33 -          __ret = -516
+2024-04-29 21:34:33 -          clockbit = 0
+2024-04-29 21:34:33 -          op = 137
+2024-04-29 21:34:33 -          __ret = <optimized out>
+2024-04-29 21:34:33 -          oldtype = 0
+2024-04-29 21:34:33 -          err = <optimized out>
+2024-04-29 21:34:33 -          oldtype = <optimized out>
+2024-04-29 21:34:33 -          err = <optimized out>
+2024-04-29 21:34:33 -          __ret = <optimized out>
+2024-04-29 21:34:33 -          clockbit = <optimized out>
+2024-04-29 21:34:33 -          op = <optimized out>
+2024-04-29 21:34:33 -          __ret = <optimized out>
+2024-04-29 21:34:33 -          resultvar = <optimized out>
+2024-04-29 21:34:33 -          __arg6 = <optimized out>
+2024-04-29 21:34:33 -          __arg5 = <optimized out>
+2024-04-29 21:34:33 -          __arg4 = <optimized out>
+2024-04-29 21:34:33 -          __arg3 = <optimized out>
+2024-04-29 21:34:33 -          __arg2 = <optimized out>
+2024-04-29 21:34:33 -          __arg1 = <optimized out>
+2024-04-29 21:34:33 -          _a6 = <optimized out>
+2024-04-29 21:34:33 -          _a5 = <optimized out>
+2024-04-29 21:34:33 -          _a4 = <optimized out>
+2024-04-29 21:34:33 -          _a3 = <optimized out>
+2024-04-29 21:34:33 -          _a2 = <optimized out>
+2024-04-29 21:34:33 -          _a1 = <optimized out>
+2024-04-29 21:34:33 -  #1  __pthread_cond_wait_common (abstime=0x7fff6fffee50, clockid=1879043408, mutex=0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>, cond=0x5555557e1d90 <Scheduler::getInstance()::scheduler+144>) at pthread_cond_wait.c:520
+2024-04-29 21:34:33 -          spin = 0
+2024-04-29 21:34:33 -          buffer = {__routine = 0x7ffff7b98540 <__condvar_cleanup_waiting>, __arg = 0x7fff6fffed50, __canceltype = 1434328424, __prev = 0x0}
+2024-04-29 21:34:33 -          cbuffer = {wseq = 147288, cond = 0x5555557e1d90 <Scheduler::getInstance()::scheduler+144>, mutex = 0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>, private = 0}
+2024-04-29 21:34:33 -          err = <optimized out>
+2024-04-29 21:34:33 -          g = 0
+2024-04-29 21:34:33 -          flags = <optimized out>
+2024-04-29 21:34:33 -          g1_start = <optimized out>
+2024-04-29 21:34:33 -          maxspin = 0
+2024-04-29 21:34:33 -          signals = <optimized out>
+2024-04-29 21:34:33 -          result = 0
+2024-04-29 21:34:33 -          wseq = 147288
+2024-04-29 21:34:33 -          seq = 73644
+2024-04-29 21:34:33 -          private = 0
+2024-04-29 21:34:33 -          maxspin = <optimized out>
+2024-04-29 21:34:33 -          err = <optimized out>
+2024-04-29 21:34:33 -          result = <optimized out>
+2024-04-29 21:34:33 -          wseq = <optimized out>
+2024-04-29 21:34:33 -          g = <optimized out>
+2024-04-29 21:34:33 -          seq = <optimized out>
+2024-04-29 21:34:33 -          flags = <optimized out>
+2024-04-29 21:34:33 -          private = <optimized out>
+2024-04-29 21:34:33 -          signals = <optimized out>
+2024-04-29 21:34:33 -          done = <optimized out>
+2024-04-29 21:34:33 -          g1_start = <optimized out>
+2024-04-29 21:34:33 -          spin = <optimized out>
+2024-04-29 21:34:33 -          buffer = {__routine = <optimized out>, __arg = <optimized out>, __canceltype = <optimized out>, __prev = <optimized out>}
+2024-04-29 21:34:33 -          cbuffer = {wseq = <optimized out>, cond = <optimized out>, mutex = <optimized out>, private = <optimized out>}
+2024-04-29 21:34:33 -          s = <optimized out>
+2024-04-29 21:34:33 -  #2  __pthread_cond_timedwait (cond=cond@entry=0x5555557e1d90 <Scheduler::getInstance()::scheduler+144>, mutex=mutex@entry=0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>, abstime=abstime@entry=0x7fff6fffee50) at pthread_cond_wait.c:656
+2024-04-29 21:34:33 -          flags = <optimized out>
+2024-04-29 21:34:33 -          clockid = 1879043408
+2024-04-29 21:34:33 -  #3  0x0000555555715f5b in boost::posix::pthread_cond_timedwait (t=0x7fff6fffee50, m=0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>, c=0x5555557e1d90 <Scheduler::getInstance()::scheduler+144>) at /usr/include/boost/thread/pthread/pthread_helpers.hpp:123
+2024-04-29 21:34:33 -          ret = <optimized out>
+2024-04-29 21:34:33 -          ret = <optimized out>
+2024-04-29 21:34:33 -  #4  boost::condition_variable::do_wait_until (timeout=..., m=..., this=0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>) at /usr/include/boost/thread/pthread/condition_variable.hpp:122
+2024-04-29 21:34:33 -          guard = {m = 0x7fff6fffee30}
+2024-04-29 21:34:33 -          check_for_interruption = {thread_info = 0x7fffd02f27d0, m = 0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>, set = true, done = false}
+2024-04-29 21:34:33 -          the_mutex = 0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>
+2024-04-29 21:34:33 -          cond_res = <optimized out>
+2024-04-29 21:34:33 -          cond_res = <optimized out>
+2024-04-29 21:34:33 -          guard = {m = <optimized out>}
+2024-04-29 21:34:33 -          check_for_interruption = {thread_info = <optimized out>, m = <optimized out>, set = <optimized out>, done = <optimized out>}
+2024-04-29 21:34:33 -          the_mutex = <optimized out>
+2024-04-29 21:34:33 -  #5  boost::condition_variable::timed_wait (abs_time=..., m=..., this=0x5555557e1d68 <Scheduler::getInstance()::scheduler+104>) at /usr/include/boost/thread/pthread/condition_variable_fwd.hpp:116
+2024-04-29 21:34:34 -          ts = {dur = {ts_val = {tv_sec = <optimized out>, tv_nsec = <optimized out>}}}
+2024-04-29 21:34:34 -          d = {ts_val = {tv_sec = <optimized out>, tv_nsec = <optimized out>}}
+2024-04-29 21:34:34 -          ts = {dur = {ts_val = {tv_sec = <optimized out>, tv_nsec = <optimized out>}}}
+2024-04-29 21:34:34 -          d = {ts_val = {tv_sec = <optimized out>, tv_nsec = <optimized out>}}
+2024-04-29 21:34:34 -  #6  Scheduler::schedulerThread (p=0x5555557e1d00 <Scheduler::getInstance()::scheduler>) at scheduler.cpp:52
+2024-04-29 21:34:34 -          task = 0x0
+2024-04-29 21:34:34 -          run = false
+2024-04-29 21:34:34 -          ret = false
+2024-04-29 21:34:34 -          scheduler = 0x5555557e1d00 <Scheduler::getInstance()::scheduler>
+2024-04-29 21:34:34 -          eventLockUnique = {m = 0x5555557e1d40 <Scheduler::getInstance()::scheduler+64>, is_locked = false}
+2024-04-29 21:34:34 -  #7  0x0000555555716da2 in boost::_bi::list1<boost::_bi::value<void*> >::operator()<void (*)(void*), boost::_bi::list0> (a=<synthetic pointer>..., f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:259
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #8  boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > >::operator() (this=<optimized out>) at /usr/include/boost/bind/bind.hpp:1294
+2024-04-29 21:34:34 -          a = {<No data fields>}
+2024-04-29 21:34:34 -  #9  boost::detail::thread_data<boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > > >::run (this=<optimized out>) at /usr/include/boost/thread/detail/thread.hpp:120
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #10 0x00007ffff7bb7787 in ?? () from /lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+2024-04-29 21:34:34 -  No symbol table info available.
+2024-04-29 21:34:34 -  #11 0x00007ffff7b91ea7 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2024-04-29 21:34:34 -          ret = <optimized out>
+2024-04-29 21:34:34 -          pd = <optimized out>
+2024-04-29 21:34:34 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140735072433920, 8210944194933240943, 140737306567950, 140737306567951, 140735072432064, 8396800, -8210627535029062545, -8210962277842078609}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2024-04-29 21:34:34 -          not_first_call = 0
+2024-04-29 21:34:34 -  #12 0x00007ffff7786a6f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  
+2024-04-29 21:34:34 -  Thread 2 (Thread 0x7ffff52a3700 (LWP 41275) "theforgottenser"):
+2024-04-29 21:34:34 -  #0  futex_wait_cancelable (private=0, expected=0, futex_word=0x5555557e1fa0 <Dispatcher::getInstance()::dispatcher+128>) at ../sysdeps/nptl/futex-internal.h:186
+2024-04-29 21:34:34 -          __ret = -512
+2024-04-29 21:34:34 -          oldtype = 0
+2024-04-29 21:34:34 -          err = <optimized out>
+2024-04-29 21:34:34 -          oldtype = <optimized out>
+2024-04-29 21:34:34 -          err = <optimized out>
+2024-04-29 21:34:34 -          __ret = <optimized out>
+2024-04-29 21:34:34 -          resultvar = <optimized out>
+2024-04-29 21:34:34 -          __arg4 = <optimized out>
+2024-04-29 21:34:34 -          __arg3 = <optimized out>
+2024-04-29 21:34:34 -          __arg2 = <optimized out>
+2024-04-29 21:34:34 -          __arg1 = <optimized out>
+2024-04-29 21:34:34 -          _a4 = <optimized out>
+2024-04-29 21:34:34 -          _a3 = <optimized out>
+2024-04-29 21:34:34 -          _a2 = <optimized out>
+2024-04-29 21:34:34 -          _a1 = <optimized out>
+2024-04-29 21:34:34 -  #1  __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>, cond=0x5555557e1f78 <Dispatcher::getInstance()::dispatcher+88>) at pthread_cond_wait.c:508
+2024-04-29 21:34:34 -          spin = 0
+2024-04-29 21:34:34 -          buffer = {__routine = 0x7ffff7b98540 <__condvar_cleanup_waiting>, __arg = 0x7ffff52a2d10, __canceltype = -142469960, __prev = 0x0}
+2024-04-29 21:34:34 -          cbuffer = {wseq = 113940, cond = 0x5555557e1f78 <Dispatcher::getInstance()::dispatcher+88>, mutex = 0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>, private = 0}
+2024-04-29 21:34:34 -          err = <optimized out>
+2024-04-29 21:34:34 -          g = 4113181936
+2024-04-29 21:34:34 -          flags = <optimized out>
+2024-04-29 21:34:34 -          g1_start = <optimized out>
+2024-04-29 21:34:34 -          maxspin = 0
+2024-04-29 21:34:34 -          signals = <optimized out>
+2024-04-29 21:34:34 -          result = 0
+2024-04-29 21:34:34 -          wseq = 113940
+2024-04-29 21:34:34 -          seq = 56970
+2024-04-29 21:34:34 -          private = 0
+2024-04-29 21:34:34 -          maxspin = <optimized out>
+2024-04-29 21:34:34 -          err = <optimized out>
+2024-04-29 21:34:34 -          result = <optimized out>
+2024-04-29 21:34:34 -          wseq = <optimized out>
+2024-04-29 21:34:34 -          g = <optimized out>
+2024-04-29 21:34:34 -          seq = <optimized out>
+2024-04-29 21:34:34 -          flags = <optimized out>
+2024-04-29 21:34:34 -          private = <optimized out>
+2024-04-29 21:34:34 -          signals = <optimized out>
+2024-04-29 21:34:34 -          done = <optimized out>
+2024-04-29 21:34:34 -          g1_start = <optimized out>
+2024-04-29 21:34:34 -          spin = <optimized out>
+2024-04-29 21:34:34 -          buffer = {__routine = <optimized out>, __arg = <optimized out>, __canceltype = <optimized out>, __prev = <optimized out>}
+2024-04-29 21:34:34 -          cbuffer = {wseq = <optimized out>, cond = <optimized out>, mutex = <optimized out>, private = <optimized out>}
+2024-04-29 21:34:34 -          s = <optimized out>
+2024-04-29 21:34:34 -  #2  __pthread_cond_wait (cond=cond@entry=0x5555557e1f78 <Dispatcher::getInstance()::dispatcher+88>, mutex=mutex@entry=0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>) at pthread_cond_wait.c:638
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #3  0x00005555556b8e6e in boost::posix::pthread_cond_wait (m=<optimized out>, c=<optimized out>) at /usr/include/boost/thread/pthread/pthread_helpers.hpp:112
+2024-04-29 21:34:34 -          ret = <optimized out>
+2024-04-29 21:34:34 -  #4  boost::condition_variable::wait (this=0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>, m=...) at /usr/include/boost/thread/pthread/condition_variable.hpp:79
+2024-04-29 21:34:34 -          guard = {m = <optimized out>}
+2024-04-29 21:34:34 -          check_for_interruption = {thread_info = 0x555555810fc0, m = 0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>, set = true, done = false}
+2024-04-29 21:34:34 -          the_mutex = 0x5555557e1f50 <Dispatcher::getInstance()::dispatcher+48>
+2024-04-29 21:34:34 -          res = 0
+2024-04-29 21:34:34 -  #5  0x000055555573ae2e in Dispatcher::dispatcherThread (p=0x5555557e1f20 <Dispatcher::getInstance()::dispatcher>) at tasks.cpp:54
+2024-04-29 21:34:34 -          task = 0x0
+2024-04-29 21:34:34 -          dispatcher = 0x5555557e1f20 <Dispatcher::getInstance()::dispatcher>
+2024-04-29 21:34:34 -          outputPool = <optimized out>
+2024-04-29 21:34:34 -          taskLockUnique = {m = 0x5555557e1f28 <Dispatcher::getInstance()::dispatcher+8>, is_locked = false}
+2024-04-29 21:34:34 -  #6  0x0000555555716da2 in boost::_bi::list1<boost::_bi::value<void*> >::operator()<void (*)(void*), boost::_bi::list0> (a=<synthetic pointer>..., f=<optimized out>, this=<optimized out>) at /usr/include/boost/bind/bind.hpp:259
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #7  boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > >::operator() (this=<optimized out>) at /usr/include/boost/bind/bind.hpp:1294
+2024-04-29 21:34:34 -          a = {<No data fields>}
+2024-04-29 21:34:34 -  #8  boost::detail::thread_data<boost::_bi::bind_t<void, void (*)(void*), boost::_bi::list1<boost::_bi::value<void*> > > >::run (this=<optimized out>) at /usr/include/boost/thread/detail/thread.hpp:120
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #9  0x00007ffff7bb7787 in ?? () from /lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+2024-04-29 21:34:34 -  No symbol table info available.
+2024-04-29 21:34:34 -  #10 0x00007ffff7b91ea7 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2024-04-29 21:34:34 -          ret = <optimized out>
+2024-04-29 21:34:34 -          pd = <optimized out>
+2024-04-29 21:34:34 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737306572544, 8210944194933240943, 140737488347774, 140737488347775, 140737306570688, 8396800, -8210967664226651025, -8210962277842078609}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2024-04-29 21:34:34 -          not_first_call = 0
+2024-04-29 21:34:34 -  #11 0x00007ffff7786a6f in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  
+2024-04-29 21:34:34 -  Thread 1 (Thread 0x7ffff52a9b80 (LWP 41271) "theforgottenser"):
+2024-04-29 21:34:34 -  #0  0x00007ffff7786d96 in epoll_wait (epfd=4, events=events@entry=0x7fffffffdc50, maxevents=maxevents@entry=128, timeout=timeout@entry=-1) at ../sysdeps/unix/sysv/linux/epoll_wait.c:30
+2024-04-29 21:34:34 -  No locals.
+2024-04-29 21:34:34 -  #1  0x00005555555ae6ed in boost::asio::detail::epoll_reactor::run (this=0x555555810ee0, usec=usec@entry=-1, ops=...) at /usr/include/boost/asio/detail/impl/epoll_reactor.ipp:471
+2024-04-29 21:34:34 -          timeout = -1
+2024-04-29 21:34:34 -          events = {{events = 1, data = {ptr = 0x555555811270, fd = 1434522224, u32 = 1434522224, u64 = 93824995103344}}, {events = 0, data = {ptr = 0x55555558d3ac <boost::date_time::c_time::gmtime(long const*, tm*)>, fd = 1431884716, u32 = 1431884716, u64 = 93824992465836}}, {events = 1431883221, data = {ptr = 0x557e1f2000005555, fd = 21845, u32 = 21845, u64 = 6160395562588853589}}, {events = 21845, data = {ptr = 0x7fffffffdf00, fd = -8448, u32 = 4294958848, u64 = 140737488346880}}, {events = 1, data = {ptr = 0xf774324d00000000, fd = 0, u32 = 0, u64 = 17830932130960506880}}, {events = 32767, data = {ptr = 0x2200000015, fd = 21, u32 = 21, u64 = 146028888085}}, {events = 4294958336, data = {ptr = 0xffffdd8000007fff, fd = 32767, u32 = 32767, u64 = 18446706140558426111}}, {events = 32767, data = {ptr = 0xf, fd = 15, u32 = 15, u64 = 15}}, {events = 1296318811, data = {ptr = 0xffffdd806854205d, fd = 1750343773, u32 = 1750343773, u64 = 18446706142308737117}}, {events = 32767, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 1714426472, data = {ptr = 0x55800ce000000000, fd = 0, u32 = 0, u64 = 6160938446455046144}}, {events = 21845, data = {ptr = 0x1, fd = 1, u32 = 1, u64 = 1}}, {events = 1434449216, data = {ptr = 0xffffdd5000005555, fd = 21845, u32 = 21845, u64 = 18446705934399984981}}, {events = 32767, data = {ptr = 0x7fffffffddd0, fd = -8752, u32 = 4294958544, u64 = 140737488346576}}, {events = 1, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x7fffffffddd0, fd = -8752, u32 = 4294958544, u64 = 140737488346576}}, {events = 0, data = {ptr = 0xf7b9c32700000000, fd = 0, u32 = 0, u64 = 17850513170330812416}}, {events = 32767, data = {ptr = 0xffffffffffffffff, fd = -1, u32 = 4294967295, u64 = 18446744073709551615}}, {events = 1434424592, data = {ptr = 0x200005555, fd = 21845, u32 = 21845, u64 = 8589956437}}, {events = 0, data = {ptr = 0xf774324d, fd = -143379891, u32 = 4151587405, u64 = 4151587405}}, {events = 1434453472, data = {ptr = 0x555ae38e00005555, fd = 21845, u32 = 21845, u64 = 6150478440152716629}}, {events = 21845, data = {ptr = 0x55555580adf8, fd = 1434496504, u32 = 1434496504, u64 = 93824995077624}}, {events = 11, data = {ptr = 0x67c41018ef819, fd = 26146841, u32 = 26146841, u64 = 1825468501129241}}, {events = 0, data = {ptr = 0x55555558d3ac <boost::date_time::c_time::gmtime(long const*, tm*)>, fd = 1431884716, u32 = 1431884716, u64 = 93824992465836}}, {events = 11, data = {ptr = 0x557d357000000001, fd = 1, u32 = 1, u64 = 6160138620465315841}}, {events = 21845, data = {ptr = 0x7fffffffde60, fd = -8608, u32 = 4294958688, u64 = 140737488346720}}, {events = 0, data = {ptr = 0x558005e000000000, fd = 0, u32 = 0, u64 = 6160930749873651712}}, {events = 21845, data = {ptr = 0x55555580ade0, fd = 1434496480, u32 = 1434496480, u64 = 93824995077600}}, {events = 1434521312, data = {ptr = 0x5555, fd = 21845, u32 = 21845, u64 = 21845}}, {events = 0, data = {ptr = 0x1, fd = 1, u32 = 1, u64 = 1}}, {events = 1432023589, data = {ptr = 0x557f951000005555, fd = 21845, u32 = 21845, u64 = 6160806711218165077}}, {events = 21845, data = {ptr = 0xbf774324d, fd = -143379891, u32 = 4151587405, u64 = 51396227661}}, {events = 32, data = {ptr = 0x1500000022, fd = 34, u32 = 34, u64 = 90194313250}}, {events = 29, data = {ptr = 0x555555811298, fd = 1434522264, u32 = 1434522264, u64 = 93824995103384}}, {events = 1, data = {ptr = 0x77, fd = 119, u32 = 119, u64 = 119}}, {events = 0, data = {ptr = 0x55555580ade0, fd = 1434496480, u32 = 1434496480, u64 = 93824995077600}}, {events = 4294958848, data = {ptr = 0x200007fff, fd = 32767, u32 = 32767, u64 = 8589967359}}, {events = 0, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 3500226608, data = {ptr = 0x557f951000007fff, fd = 32767, u32 = 32767, u64 = 6160806711218175999}}, {events = 21845, data = {ptr = 0x5555555b52c6 <boost::asio::detail::start_read_buffer_sequence_op<boost::asio::basic_stream_socket<boost::asio::ip::tcp, boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > > >, boost::asio::mutable_buffers_1, boost::asio::mutable_buffer const*, boost::asio::detail::transfer_all_t, boost::_bi::bind_t<void, boost::_mfi::mf1<void, Connection, boost::system::error_code const&>, boost::_bi::list2<boost::_bi::value<boost::shared_ptr<Connection> >, boost::arg<1> (*)()> > >(boost::asio::basic_stream_socket<boost::asio::ip::tcp, boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > > >&, boost::asio::mutable_buffers_1 const&, boost::asio::mutable_buffer const* const&, boost::asio::detail::transfer_all_t&, boost::_bi::bind_t<void, boost::_mfi::mf1<void, Connection, boost::system::error_code const&>, boost::_bi::list2<boost::_bi::value<boost::shared_ptr<Connection> >, boost::arg<1> (*)()> >&)+675>, fd = 1432048326, u32 = 1432048326, u64 = 93824992629446}}, {events = 1, data = {ptr = 0x555b51df00000000, fd = 0, u32 = 0, u64 = 6150599734324101120}}, {events = 21845, data = {ptr = 0x5555558005f0, fd = 1434453488, u32 = 1434453488, u64 = 93824995034608}}, {events = 1434453456, data = {ptr = 0xd10a0fe000005555, fd = 21845, u32 = 21845, u64 = 15062869358441157973}}, {events = 32767, data = {ptr = 0x5555555b26e9 <boost::asio::detail::timer_queue<boost::asio::time_traits<boost::posix_time::ptime> >::wait_duration_usec(long) const+53>, fd = 1432037097, u32 = 1432037097, u64 = 93824992618217}}, {events = 4294958720, data = {ptr = 0x5580ade000007fff, fd = 32767, u32 = 32767, u64 = 6161115467827150847}}, {events = 21845, data = {ptr = 0x55555580ade0, fd = 1434496480, u32 = 1434496480, u64 = 93824995077600}}, {events = 1434521224, data = {ptr = 0x558005d000005555, fd = 21845, u32 = 21845, u64 = 6160930681154196821}}, {events = 21845, data = {ptr = 0x5555557f9510, fd = 1434424592, u32 = 1434424592, u64 = 93824995005712}}, {events = 2, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x1, fd = 1, u32 = 1, u64 = 1}}, {events = 1432002892, data = {ptr = 0x5555, fd = 21845, u32 = 21845, u64 = 21845}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x555b0ffe00000000, fd = 0, u32 = 0, u64 = 6150527299700654080}}, {events = 21845, data = {ptr = 0x7fffffffdf78, fd = -8328, u32 = 4294958968, u64 = 140737488347000}}, {events = 1434424560, data = {ptr = 0x557ff65800005555, fd = 21845, u32 = 21845, u64 = 6160913673083704661}}, {events = 21845, data = {ptr = 0x5555557f94f8, fd = 1434424568, u32 = 1434424568, u64 = 93824995005688}}, {events = 1434521184, data = {ptr = 0x555afd9a00005555, fd = 21845, u32 = 21845, u64 = 6150507078994646357}}, {events = 21845, data = {ptr = 0x5555557f94f0, fd = 1434424560, u32 = 1434424560, u64 = 93824995005680}}, {events = 1432005190, data = {ptr = 0x557ff57800005555, fd = 21845, u32 = 21845, u64 = 6160912711011030357}}, {events = 21845, data = {ptr = 0x5555557ff540, fd = 1434449216, u32 = 1434449216, u64 = 93824995030336}}, {events = 1434424560, data = {ptr = 0x555aa43600005555, fd = 21845, u32 = 21845, u64 = 6150408792963044693}}, {events = 21845, data = {ptr = 0x5555555aa59a <Connection::parsePacket(boost::system::error_code const&)>, fd = 1432003994, u32 = 1432003994, u64 = 93824992585114}}, {events = 0, data = {ptr = 0x555aa14c00000000, fd = 0, u32 = 0, u64 = 6150405588917420032}}, {events = 21845, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x5555555a89ee <Connection::handleReadTimeout(boost::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 1431996910, u32 = 1431996910, u64 = 93824992578030}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x1c9c380, fd = 30000000, u32 = 30000000, u64 = 30000000}}, {events = 1431996910, data = {ptr = 0x5555, fd = 21845, u32 = 21845, u64 = 21845}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 1434523040, data = {ptr = 0x557f94f000005555, fd = 21845, u32 = 21845, u64 = 6160806573779211605}}, {events = 21845, data = {ptr = 0x5555558115a0, fd = 1434523040, u32 = 1434523040, u64 = 93824995104160}}, {events = 1434424560, data = {ptr = 0x558115a000005555, fd = 21845, u32 = 21845, u64 = 6161229542158521685}}, {events = 21845, data = {ptr = 0x5555557f94f0, fd = 1434424560, u32 = 1434424560, u64 = 93824995005680}}, {events = 1434523040, data = {ptr = 0x557f951000005555, fd = 21845, u32 = 21845, u64 = 6160806711218165077}}, {events = 21845, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 32, data = {ptr = 0xffffe16000000000, fd = 0, u32 = 0, u64 = 18446710401165950976}}, {events = 32767, data = {ptr = 0x7fffffffdfd0, fd = -8240, u32 = 4294959056, u64 = 140737488347088}}, {events = 4294959888, data = {ptr = 0x55810e1000007fff, fd = 32767, u32 = 32767, u64 = 6161221227101847551}}, {events = 21845, data = {ptr = 0x7fffffffe180, fd = -7808, u32 = 4294959488, u64 = 140737488347520}}, {events = 4294959296, data = {ptr = 0xffffe31000007fff, fd = 32767, u32 = 32767, u64 = 18446712256591855615}}, {events = 32767, data = {ptr = 0x555555810e10, fd = 1434521104, u32 = 1434521104, u64 = 93824995102224}}, {events = 4294959936, data = {ptr = 0x7fff, fd = 32767, u32 = 32767, u64 = 32767}}, {events = 0, data = {ptr = 0x5555555b4da7 <boost::asio::detail::read_op<boost::asio::basic_stream_socket<boost::asio::ip::tcp, boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > > >, boost::asio::mutable_buffers_1, boost::asio::mutable_buffer const*, boost::asio::detail::transfer_all_t, boost::_bi::bind_t<void, boost::_mfi::mf1<void, Connection, boost::system::error_code const&>, boost::_bi::list2<boost::_bi::value<boost::shared_ptr<Connection> >, boost::arg<1> (*)()> > >::operator()(boost::system::error_code const&, unsigned long, int)+95>, fd = 1432047015, u32 = 1432047015, u64 = 93824992628135}}, {events = 1434521104, data = {ptr = 0x3b03bd0000005555, fd = 21845, u32 = 21845, u64 = 4252450280865551701}}, {events = 294582297, data = {ptr = 0x5555557e1fe0 <OutputMessagePool::getInstance()::instance>, fd = 1434329056, u32 = 1434329056, u64 = 93824994910176}}, {events = 3515091696, data = {ptr = 0x55810d6000007fff, fd = 32767, u32 = 32767, u64 = 6161220471187603455}}, {events = 21845, data = {ptr = 0x118ef8193b03bd00, fd = 990100736, u32 = 990100736, u64 = 1265221332585659648}}, {events = 1434521104, data = {ptr = 0x5580ade000005555, fd = 21845, u32 = 21845, u64 = 6161115467827139925}}, {events = 21845, data = {ptr = 0x7fffffffe310, fd = -7408, u32 = 4294959888, u64 = 140737488347920}}, {events = 990100736, data = {ptr = 0xffffe340118ef819, fd = 294582297, u32 = 294582297, u64 = 18446712463044835353}}, {events = 32767, data = {ptr = 0x55555580ade0, fd = 1434496480, u32 = 1434496480, u64 = 93824995077600}}, {events = 4294959888, data = {ptr = 0x55810e1000007fff, fd = 32767, u32 = 32767, u64 = 6161221227101847551}}, {events = 21845, data = {ptr = 0x7fffffffe340, fd = -7360, u32 = 4294959936, u64 = 140737488347968}}, {events = 0, data = {ptr = 0x55810d6000000000, fd = 0, u32 = 0, u64 = 6161220471187570688}}, {events = 21845, data = {ptr = 0x5555555b6428 <boost::asio::detail::reactive_socket_recv_op<boost::asio::mutable_buffers_1, boost::asio::detail::read_op<boost::asio::basic_stream_socket<boost::asio::ip::tcp, boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > > >, boost::asio::mutable_buffers_1, boost::asio::mutable_buffer const*, boost::asio::detail::transfer_all_t, boost::_bi::bind_t<void, boost::_mfi::mf1<void, Connection, boost::system::error_code const&>, boost::_bi::list2<boost::_bi::value<boost::shared_ptr<Connection> >, boost::arg<1> (*)()> > >, boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > > >::do_complete(void*, boost::asio::detail::scheduler_operation*, boost::system::error_code const&, unsigned long)+1063>, fd = 1432052776, u32 = 1432052776, u64 = 93824992633896}}, {events = 0, data = {ptr = 0xf32830908000001b, fd = -2147483621, u32 = 2147483675, u64 = 17521307747465822235}}, {events = 32767, data = {ptr = 0x555555810d60, fd = 1434520928, u32 = 1434520928, u64 = 93824995102048}}, {events = 1431996939, data = {ptr = 0x55810e1000005555, fd = 21845, u32 = 21845, u64 = 6161221227101836629}}, {events = 21845, data = {ptr = 0x555555800ce0, fd = 1434455264, u32 = 1434455264, u64 = 93824995036384}}, {events = 1434520928, data = {ptr = 0x555b5edf00005555, fd = 21845, u32 = 21845, u64 = 6150614027975284053}}, {events = 21845, data = {ptr = 0xb, fd = 11, u32 = 11, u64 = 11}}, {events = 1433529822, data = {ptr = 0x555b37b300005555, fd = 21845, u32 = 21845, u64 = 6150570958043239765}}, {events = 21845, data = {ptr = 0x55555571d01c <boost::asio::detail::socket_ops::non_blocking_accept(int, unsigned char, sockaddr*, unsigned long*, boost::system::error_code&, int&)+130>, fd = 1433522204, u32 = 1433522204, u64 = 93824994103324}}, {events = 0, data = {ptr = 0xf7b9c32700000000, fd = 0, u32 = 0, u64 = 17850513170330812416}}, {events = 32767, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 1434424592, data = {ptr = 0x200005555, fd = 21845, u32 = 21845, u64 = 8589956437}}, {events = 0, data = {ptr = 0x557ff980, fd = 1434450304, u32 = 1434450304, u64 = 1434450304}}, {events = 1434453456, data = {ptr = 0x557f951000005555, fd = 21845, u32 = 21845, u64 = 6160806711218165077}}, {events = 21845, data = {ptr = 0x2, fd = 2, u32 = 2, u64 = 2}}, {events = 2, data = {ptr = 0x558005d000000000, fd = 0, u32 = 0, u64 = 6160930681154174976}}, {events = 21845, data = {ptr = 0x5555557f9512, fd = 1434424594, u32 = 1434424594, u64 = 93824995005714}}, {events = 12, data = {ptr = 0xc00000000, fd = 0, u32 = 0, u64 = 51539607552}}, {events = 0, data = {ptr = 0x5555555a89ee <Connection::handleReadTimeout(boost::weak_ptr<Connection>, boost::system::error_code const&)>, fd = 1431996910, u32 = 1431996910, u64 = 93824992578030}}, {events = 1434424560, data = {ptr = 0x558115a000005555, fd = 21845, u32 = 21845, u64 = 6161229542158521685}}, {events = 21845, data = {ptr = 0x640000010000007d, fd = 125, u32 = 125, u64 = 7205759408087761021}}, {events = 1434269040, data = {ptr = 0x5555, fd = 21845, u32 = 21845, u64 = 21845}}, {events = 1677721600, data = {ptr = 0x5555557d3570 <boost::system::detail::cat_holder<void>::system_category_instance>, fd = 1434269040, u32 = 1434269040, u64 = 93824994850160}}, {events = 12, data = {ptr = 0x557d486000000000, fd = 0, u32 = 0, u64 = 6160159442466766848}}, {events = 21845, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 1434273856, data = {ptr = 0x557d468000005555, fd = 21845, u32 = 21845, u64 = 6160157380882486613}}, {events = 21845, data = {ptr = 0x7fffffffe1a0, fd = -7776, u32 = 4294959520, u64 = 140737488347552}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 0, data = {ptr = 0x0, fd = 0, u32 = 0, u64 = 0}}, {events = 1434424560, data = {ptr = 0x558115a000005555, fd = 21845, u32 = 21845, u64 = 6161229542158521685}}, {events = 21845, data = {ptr = 0x7fffffffe3e0, fd = -7200, u32 = 4294960096, u64 = 140737488348128}}, {events = 4294959888, data = {ptr = 0x55810e1000007fff, fd = 32767, u32 = 32767, u64 = 6161221227101847551}}, {events = 21845, data = {ptr = 0x555555810d60, fd = 1434520928, u32 = 1434520928, u64 = 93824995102048}}}
+2024-04-29 21:34:34 -          num_events = <optimized out>
+2024-04-29 21:34:34 -          check_timers = <optimized out>
+2024-04-29 21:34:34 -  #2  0x00005555555af480 in boost::asio::detail::scheduler::do_run_one (this=this@entry=0x555555810d60, lock=..., this_thread=..., ec=...) at /usr/include/boost/asio/detail/impl/scheduler.ipp:465
+2024-04-29 21:34:34 -          on_exit = {scheduler_ = 0x555555810d60, lock_ = 0x7fffffffe310, this_thread_ = 0x7fffffffe340}
+2024-04-29 21:34:34 -          o = <optimized out>
+2024-04-29 21:34:34 -          more_handlers = false
+2024-04-29 21:34:34 -  #3  0x00005555555b09cd in boost::asio::detail::scheduler::run (this=0x555555810d60, ec=...) at /usr/include/boost/asio/detail/impl/scheduler.ipp:204
+2024-04-29 21:34:34 -          this_thread = {<boost::asio::detail::thread_info_base> = {<boost::asio::detail::noncopyable> = {<No data fields>}, reusable_memory_ = {0x555555800ce0, 0x0, 0x0}, has_pending_exception_ = 0, pending_exception_ = {_M_exception_object = 0x0}}, private_op_queue = {<boost::asio::detail::noncopyable> = {<No data fields>}, front_ = 0x0, back_ = 0x0}, private_outstanding_work = 0}
+2024-04-29 21:34:34 -          ctx = {<boost::asio::detail::noncopyable> = {<No data fields>}, key_ = 0x555555810d60, value_ = 0x7fffffffe340, next_ = 0x0}
+2024-04-29 21:34:34 -          lock = {<boost::asio::detail::noncopyable> = {<No data fields>}, mutex_ = @0x555555810d90, locked_ = false}
+2024-04-29 21:34:34 -          n = 16811
+2024-04-29 21:34:34 -  #4  0x000055555571b253 in boost::asio::io_context::run (this=0x7fffffffe568) at /usr/include/boost/asio/impl/io_context.ipp:63
+2024-04-29 21:34:34 -          ec = {val_ = 0, failed_ = false, cat_ = 0x5555557d3570 <boost::system::detail::cat_holder<void>::system_category_instance>}
+2024-04-29 21:34:34 -          s = <optimized out>
+2024-04-29 21:34:34 -          ec = {val_ = <optimized out>, failed_ = <optimized out>, cat_ = <optimized out>}
+2024-04-29 21:34:34 -          s = <optimized out>
+2024-04-29 21:34:34 -  #5  ServiceManager::run (this=this@entry=0x7fffffffe560) at server.cpp:218
+2024-04-29 21:34:34 -          __PRETTY_FUNCTION__ = "void ServiceManager::run()"
+2024-04-29 21:34:34 -  #6  0x00005555556b3b2d in main (argc=<optimized out>, argv=<optimized out>) at otserv.cpp:358
+2024-04-29 21:34:34 -          args = std::vector of length 1, capacity 1 = {"/home/servidor/theforgottenserver"}
+2024-04-29 21:34:34 -          servicer = {<boost::noncopyable_::noncopyable> = {<boost::noncopyable_::base_token> = {<No data fields>}, <No data fields>}, _vptr.ServiceManager = 0x5555557d5e48 <vtable for ServiceManager+16>, m_io_service = {<boost::asio::execution_context> = {<boost::asio::detail::noncopyable> = {<No data fields>}, service_registry_ = 0x555555810d10}, impl_ = @0x555555810d60}, deathTimer = {impl_ = {service_ = 0x555555810e60, implementation_ = {<boost::asio::detail::noncopyable> = {<No data fields>}, expiry = {<boost::date_time::base_time<boost::posix_time::ptime, boost::date_time::counted_time_system<boost::date_time::counted_time_rep<boost::posix_time::millisec_posix_time_system_config> > >> = {<boost::operators_impl::less_than_comparable<boost::posix_time::ptime, boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t>, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::true_t>> = {<boost::operators_impl::less_than_comparable1<boost::posix_time::ptime, boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t> >> = {<boost::operators_impl::equality_comparable<boost::posix_time::ptime, boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>, boost::operators_impl::operators_detail::false_t>> = {<boost::operators_impl::equality_comparable1<boost::posix_time::ptime, boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime> >> = {<boost::operators_impl::operators_detail::empty_base<boost::posix_time::ptime>> = {<No data fields>}, <No data fields>}, <No data fields>}, <No data fields>}, <No data fields>}, time_ = {time_count_ = {value_ = 9223372036854775806}}}, <No data fields>}, might_have_pending_waits = false, timer_data = {op_queue_ = {<boost::asio::detail::noncopyable> = {<No data fields>}, front_ = 0x0, back_ = 0x0}, heap_index_ = 18446744073709551615, next_ = 0x0, prev_ = 0x0}}, executor_ = {<boost::asio::execution::detail::any_executor_base> = {object_ = {__data = "h\345\377\377\377\177\000\000\020\063}U\000\000\000", __align = {<No data fields>}}, object_fns_ = 0x5555557d4740 <boost::asio::execution::detail::any_executor_base::object_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >(std::enable_if<(!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, void>::value)&&(!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, std::shared_ptr<void> >::value), void>::type*)::fns>, target_ = 0x7fffffffe5b8, target_fns_ = 0x5555557d4760 <boost::asio::execution::detail::any_executor_base::target_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >(bool, std::enable_if<!std::is_same<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u>, void>::value, void>::type*)::fns_with_execute>}, <boost::asio::execution::detail::any_executor_context<boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > >, boost::asio::execution::detail::supportable_properties<0, void(boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> >)>::find_context_as_property, void>> = {<No data fields>}, prop_fns_ = 0x5555557d4780 <boost::asio::execution::any_executor<boost::asio::execution::context_as_t<boost::asio::execution_context&>, boost::asio::execution::detail::blocking::never_t<0>, boost::asio::execution::prefer_only<boost::asio::execution::detail::blocking::possibly_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::tracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::outstanding_work::untracked_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::fork_t<0> >, boost::asio::execution::prefer_only<boost::asio::execution::detail::relationship::continuation_t<0> > >::prop_fns_table<boost::asio::io_context::basic_executor_type<std::allocator<void>, 0u> >()::fns>}}}, running = false, m_acceptors = std::map with 2 elements = {[7172] = {px = 0x7fffe8c23500, pn = {pi_ = 0x7fffe8c23550}}, [7183] = {px = 0x7fffd02fc510, pn = {pi_ = 0x7fffd0a1dc90}}}}
+2024-04-29 21:34:34 -          sigh = {__sigaction_handler = {sa_handler = 0x1, sa_sigaction = 0x1}, sa_mask = {__val = {0 <repeats 16 times>}}, sa_flags = 0, sa_restorer = 0x4000000042}
+2024-04-29 21:34:34 -          outPath = ""
+2024-04-29 21:34:34 -          errPath = ""
+2024-04-29 21:34:34 -  > Saving server...
+2024-04-29 21:34:35 -  mysql_store_result(): SELECT * FROM shop_history WHERE `processed` = 0; - MYSQL ERROR:  (0)
+2024-04-29 21:34:35 -  > SAVE: Complete in 0.727 seconds using relational house storage.
+2024-04-29 21:34:35 -  A debugging session is active.
+2024-04-29 21:34:35 -  
+2024-04-29 21:34:35 -  	Inferior 1 [process 41271] will be killed.
+2024-04-29 21:34:35 -  
+2024-04-29 21:34:35 -  Quit anyway? (y or n) [answered Y; input not from terminal]
